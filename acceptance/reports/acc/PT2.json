@@ -1,0 +1,116 @@
+{
+ "run": "PT2",
+ "source": "back-filled from acceptance/out/acc/PT2",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "SU-07-J",
+   "keys": "J",
+   "ref": "",
+   "file": "03-SU-07-J.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2a15753249d41ac86bbe0c6bd2dffe0b9581b5f092be008550d55190cde7f660"
+  },
+  {
+   "step": 4,
+   "name": "J-idle",
+   "keys": "",
+   "ref": "",
+   "file": "04-J-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1c9117efc1acff2206ce1f4f558f71cd8d06ed4677ebe5c293226831570dfec2"
+  },
+  {
+   "step": 5,
+   "name": "PM-11",
+   "keys": "T",
+   "ref": "",
+   "file": "05-PM-11.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  },
+  {
+   "step": 6,
+   "name": "PM-11-idle",
+   "keys": "",
+   "ref": "",
+   "file": "06-PM-11-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  },
+  {
+   "step": 7,
+   "name": "PM-10",
+   "keys": "M",
+   "ref": "",
+   "file": "07-PM-10.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  },
+  {
+   "step": 8,
+   "name": "PM-10-idle",
+   "keys": "",
+   "ref": "",
+   "file": "08-PM-10-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  },
+  {
+   "step": 9,
+   "name": "remove",
+   "keys": "R",
+   "ref": "",
+   "file": "09-remove.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  },
+  {
+   "step": 10,
+   "name": "remove-idle",
+   "keys": "",
+   "ref": "",
+   "file": "10-remove-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "03d55400fff63e8e310a824dd98c57235af47a42a98a997939e0a7133f5a007e"
+  }
+ ]
+}

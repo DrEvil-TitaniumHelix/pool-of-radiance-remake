@@ -1,0 +1,124 @@
+{
+ "run": "AF5e",
+ "source": "back-filled from acceptance/out/acc/AF5e",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "camp",
+   "keys": "LAE",
+   "ref": "",
+   "file": "02-camp.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "d4947ee06f3c0b0fbaee1ea4f867547bf400ea5874319b3dd96cfa47198d7620"
+  },
+  {
+   "step": 3,
+   "name": "drop5",
+   "keys": "ADYADYADYADYADY",
+   "ref": "",
+   "file": "03-drop5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e042f3069dc70cc494c76e2eb2c6b612ccd04158ba8dba345ab3f18ad634ecc4"
+  },
+  {
+   "step": 4,
+   "name": "alone",
+   "keys": "EE",
+   "ref": "",
+   "file": "04-alone.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1a70f08e09ee160fc2c6fb781017fabfc79d31dcd3f40cfd54b09c9ffcfc81f2"
+  },
+  {
+   "step": 5,
+   "name": "enc",
+   "keys": "L",
+   "ref": "",
+   "file": "05-enc.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e02b6196bca6474d21112a6813872e8e7128fcb6dac0af7693feab179798c4c6"
+  },
+  {
+   "step": 6,
+   "name": "fight",
+   "keys": "C",
+   "ref": "",
+   "file": "06-fight.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8813b766e2e1a3170863e77ace44a065022fb38182401cc1700cfb07e914cdc0"
+  },
+  {
+   "step": 7,
+   "name": "quick",
+   "keys": "QN",
+   "ref": "",
+   "file": "07-quick.png",
+   "ready": true,
+   "reps": 2,
+   "errors": [],
+   "sha256": "3cb803fb6de1764313146830e8e4a84895e78cda80057bb47ac062207bbdbef0"
+  },
+  {
+   "step": 8,
+   "name": "AF-05",
+   "keys": "",
+   "ref": "AF-05",
+   "file": "08-AF-05.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "3cb803fb6de1764313146830e8e4a84895e78cda80057bb47ac062207bbdbef0",
+   "mismatch_pixels": 3339,
+   "bbox": [
+    1,
+    8,
+    287,
+    198
+   ],
+   "ref_sha256": "f4b8f86625f30703eb138bb3921106e02f1056b18e0615b6d0481548f6fc9793"
+  },
+  {
+   "step": 9,
+   "name": "SV-03",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "09-SV-03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a5cdacc1579f301f0a3af2bf305e28b28f1398c969e10c15c58f8c18b38272f4"
+  },
+  {
+   "step": 10,
+   "name": "SV-03b",
+   "keys": "",
+   "ref": "",
+   "file": "10-SV-03b.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a5cdacc1579f301f0a3af2bf305e28b28f1398c969e10c15c58f8c18b38272f4"
+  }
+ ]
+}

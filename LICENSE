@@ -1,0 +1,10 @@
+This repository uses two licenses, for the project's own work only:
+
+- Code (game/, tools/, acceptance/ and decode/ scripts, and any other program file): MIT License, see LICENSE-MIT.
+- Documentation and decode notes (all Markdown files, including decode/ pseudocode and specs): Creative Commons
+  Attribution 4.0 International (CC BY 4.0), see LICENSE-DOCS.
+
+Neither license covers the original game. Pool of Radiance and its names, text, graphics and data remain the property of
+their rights holders; this repository contains none of the game's files, and you need your own copy to play.
+
+By sending a pull request you agree that your contribution is licensed the same way.

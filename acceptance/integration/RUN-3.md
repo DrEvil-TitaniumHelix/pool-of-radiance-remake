@@ -1,0 +1,57 @@
+# RUN-3 — whole-game sweep with the test party (por-build-qa)
+
+One locked headless run per ECL block (`node acceptance/integration/run3.mjs [area ...]`). Each area is reached by a copy of
+the test-party save placed in the block (`acceptance/integration/mkareasaves.py` → `acceptance/integration/saves/<area>/`,
+git-ignored; fields in its header: data set, Mem[49F2] block, map, ECL code buffer, start square, travel mode, game_Mode 2),
+written into the game's file store and loaded with L C. Then a seeded walk (`run.mjs` autoWalk, seed = 100·dataset + block):
+~40 moves (forward / turns / Search / Look), every encounter fought on Quick, Encamp once after 20 moves. Quest flags are
+zero (fresh party), so story-gated events may not fire. Screenshots / reports: `acceptance/integration/out/RUN-3/<area>/`.
+
+Columns: **reached** = the game resumed in that data set + block after Load; **events** = distinct ECL PRINT texts seen
+(first three); **fights** = combats entered; **walk** = moves / driver iterations; **blocks** = ECL blocks visited
+(data set_block); **crash** = first ENGINE ERROR / exception (full stack in report.json).
+
+| area | title | reached | events | fights | walk | blocks | crash |
+|---|---|---|---|---|---|---|---|
+| ECL1_18 | Monster plaza / Podol Plaza candidate | Y | 18: "THE PLAZA AHEAD IS CROWDED WITH MONSTERS. HOW WILL YOU PROCE"; "YOU SPOT A GROUP OF"; "GOBLINS" … | 4 | 40 moves / 231 it, camped | 1_18 | — |
+| ECL1_24 | Temple of Bane and adjacent mansion | Y | 6: "YOU SPOT A GROUP OF"; "OGRES"; "." … | 3 | 40 moves / 94 it, camped | 1_24 | — |
+| ECL2_09 | Stojanow Gate | Y | 13: "A VOICE FROM THE TOWER YELLS 'STAY AWAY FROM THE WALL!'"; "THE GROUP OF BUGBEARS COME OVER, 'WE WARNED YOU! WHAT'S THE "; "AN ALARM STARTS RINGING!" … | 1 | 40 moves / 158 it, camped | 2_9 | — |
+| ECL2_15 | Ruined library | Y | 0 | 0 | 40 moves / 89 it, camped | 2_15 | — |
+| ECL2_20 | Phlan slums | Y | 7: "YOU HAVE ENTERED THE MONSTER-CRAWLING SLUMS OF PHLAN. SMALL,"; "YOU HAVE SURPRISED A PARTY OF ORCS."; "YOU SPY A GROUP OF SEEDY-LOOKING GOBLINS." … | 4 | 19 moves / 250 it | 2_20 | — |
+| ECL3_00 | Civilized Phlan | Y | 9: "'YOU NOW FACE AN ENTRANCE TO THE TEMPLE OF TYR. THERE ARE TH"; "'YOU WILL SEE THE ENTRANCE TO THE PASSENGER DOCK AREA WE JUS"; "'BEHIND THESE DOORS ARE THE SPECIAL TRAINING SCHOOLS WHERE A" … | 0 | 40 moves / 108 it, camped | 3_0 | — |
+| ECL3_08 | City hall / council interiors | Y | 0 | 0 | 40 moves / 115 it, camped | 3_8 | — |
+| ECL3_11 | Training / guild interiors | Y | 22: "'GREETINGS, COURAGEOUS ONES, I AM ROLF, APPOINTED BY THE COU"; "'YOU NOW FACE AN ENTRANCE TO THE TEMPLE OF TYR. THERE ARE TH"; "'YOU WILL SEE THE ENTRANCE TO THE PASSENGER DOCK AREA WE JUS" … | 1 | 12 moves / 400 it | 3_11 → 3_0 → 3_8 | — |
+| ECL3_14 | Trapped mansion / Kovel candidate | Y | 0 | 0 | 40 moves / 85 it, camped | 3_14 | — |
+| ECL4_02 | Monster district / thieves guild | Y | 1: "SCORPIONS APPROACH HUNGRILY." | 1 | 40 moves / 126 it, camped | 4_2 | — |
+| ECL4_10 | Valhingen graveyard | Y | 1: "YOU HAVE MANAGED TO SNEAK UP ON SOME SKELETONS." | 1 | 40 moves / 176 it, camped | 4_10 | — |
+| ECL4_21 | Sokal Keep | Y | 0 | 0 | 40 moves / 90 it, camped | 4_21 | — |
+| ECL5_03 | Castle outer district A | Y | 0 | 0 | 40 moves / 78 it, camped | 5_3 | — |
+| ECL5_04 | Castle outer district B | Y | 7: "YOU ENTER A ROOM THAT REEKS OF SMOKE AND BURNED FOOD. YOU SE"; "WHAT DO YOU DO?"; "THE GNOLL TURNS TO FLEE. AS HE RUNS BY, ONE OF THE SLAVES TR" … | 0 | 40 moves / 97 it, camped | 5_4 | — |
+| ECL5_05 | Castle hedge / inner approach | Y | 1: "THERE IS A HEDGE WITH POISONOUS THORNS IN THAT DIRECTION. DO" | 0 | 40 moves / 77 it, camped | 5_5 → 5_3 | — |
+| ECL5_06 | Castle inhabited district | Y | 27: "YOU ARE IN A BUILDING THAT WAS ONCE A BARRACKS BUT HAS NOW B"; "A PRIEST AND TWO ACOLYTES TURN FROM THE ALTER, 'WELCOME MY C"; "YOU GO FORWARD AND KNEEL. 'IN THE NAME OF LORD BANE, GOD OF " … | 1 | 15 moves / 43 it, 3 timeout, timeout after Q (menu MVAUQD); timeout after M (menu MVAUQD); timeout after M (m | 5_6 | — |
+| ECL5_07 | Tyranthraxus audience tower | Y | 2: "YOU ARE IN A ROOM FILLED WITH BROKEN STATUES. A HEAD BROKEN "; "A MEDUSA COMES RUNNING TOWARD YOU." | 1 | 40 moves / 102 it, camped | 5_7 | — |
+| ECL6_01 | Buccaneer base | Y | 7: "YOU ARE NEAR THE FRONT GATE TO THE SLAVE PEN. TWO GUARDS GUA"; "YOU ATTACK THE GUARDS."; "YOU ARE NEAR THE GATE TO THE SLAVE PEN." … | 1 | 34 moves / 400 it, camped | 6_1 | — |
+| ECL6_19 | Diogenes dragon cave | Y | 11: "AS YOU ARE ENTERING THE CAVE, A MAGIC MOUTH APPEARS ON ONE O"; "WHAT WILL YOU SAY IS YOUR REASON FOR BEING HERE?"; "DRAGON'S CAVE" … | 2 | 40 moves / 192 it, camped | 6_19 → 6_25 | — |
+| ECL6_25 | Western travel / outpost approaches | Y | 6: "YOU SPOT A GROUP OF"; "GIANT SNAKES"; "TIGERS" … | 3 | 40 moves / 170 it, camped | 6_25 | — |
+| ECL6_28 | Diplomatic / Zhentil outpost candidate | Y | 0 | 0 | 40 moves / 88 it, camped | 6_28 | — |
+| ECL7_17 | Nomad camp | Y | 0 | 0 | 40 moves / 114 it, camped | 7_17 | — |
+| ECL7_22 | Prison / teleport chambers | Y | 5: "YOU SURPRISE"; "A TRIO OF LIZARD MEN."; "ONE LICKS ITS LIPS." … | 2 | 40 moves / 148 it, camped | 7_22 | — |
+| ECL7_23 | Polluted-river facility | Y | 0 | 0 | 40 moves / 129 it, camped | 7_23 | — |
+| ECL7_26 | Northern travel / lizard settlements | Y | 6: "YOU SURPRISE A GROUP OF"; "STIRGES"; "YOU HAVE FOUND A SMALL DARK CAVE. WILL YOU ENTER?" … | 2 | 40 moves / 210 it, camped | 7_26 → 6_25 | — |
+| ECL8_13 | Kobold complex | Y | 1: "KOBOLDS SEEM TO BOIL UP FROM NOWHERE." | 2 | 40 moves / 147 it, camped | 8_13 | — |
+| ECL8_16 | Ruined castle / lizardmen | Y | 2: "YOU HAVE ENTERED AN L-SHAPED BUILDING. IT IS REASONALBLY INT"; "3 GIANT LIZARDS CHARGE TOWARD YOU." | 1 | 40 moves / 119 it, camped | 8_16 | — |
+| ECL8_27 | Eastern travel / caves | Y | 6: "YOU HAVE FOUND A SMALL, DARK CAVE. WILL YOU ENTER?"; "YOU FIND A PASSAGEWAY GOING OUT. WHAT WILL YOU DO?"; "YOU SURPRISE A GROUP OF" … | 2 | 40 moves / 132 it, camped | 8_27 → 7_26 | — |
+| ECL8_29 | Kuto's Well / bandit area | Y | 11: "BEFORE YOU LIES KUTO'S WELL. IT IS A SOURCE OF WATER IN ALL "; "THORGRIM is hit FOR 5 points of Damage."; "MORGANA is hit FOR 1 points of Damage." … | 2 | 40 moves / 86 it, camped | 8_29 | — |
+
+## Summary (2026-10-18)
+
+**29/29 areas reached** (every ECL block resumes from its save, init vector and entry event run), 40 moves in 25 areas (fewer: 2_20 / 3_11 / 6_01 iteration cap, 5_06 party wiped), fights in 18 areas, camp in 26 (not in 2_20, 3_11, 5_06). **One game crash: #r3-1** (ECL2_09) — fixed by por-fixer in 7f24d41 and re-verified: the ECL2_09 re-run passes the alarm's arrow DAMAGE ("THORGRIM is hit FOR 1 points of Damage", the call that faulted) and completes 40 moves, 1 fight, camp, no exception. Everything else that stopped a run was the harness (save fields, driver answers) or original behaviour (ECL5_06 party wiped → TerminateGame), see below. Areas 1–16 ran with the earlier driver (before the Continue-Battle / overland / menu-rotation fixes); their rows stand as recorded. Open (mine): Quick persistence check (magic_ov08 SetQuick), see the ECL3_11 note.
+
+## Findings and fix requests (RUN-3)
+
+- **party fix request #r3-1 (por-fixer, party_ov12.js) — APPLIED 7f24d41, re-verified (ECL2_09 row):** ECL2_09 Stojanow Gate, bugbear alarm → ECL DAMAGE (op 2Eh, `ecl.js:1256` attackRollVsAC) outside combat → CallEffectHooks(10h) → THORGRIM's racial effect 2Fh → `EffDwarfGiantDefence` (5C00:11F9) → `tgt(c)` = `c.combat.target` with `c.combat = null`: `TypeError: Cannot read properties of null (reading 'target') at tgt (party_ov12.js:33) at EffDwarfGiantDefence (party_ov12.js:490) at CallEffectHandler (combat_ov24.js:33) at RunEffectIfActive (combat_ov24.js:80) at CallEffectHooks (combat_ov24.js:110) at AttackRollVsAC (combat_ov24.js:141) at EclVM.op2E_Damage (ecl.js:1256)`. In the original the combatant pointer (TChar +108h) is nil/stale outside combat and the read does not fault; guard `tgt` (and the other `c.combat` readers of ov12) so a missing combatant gives nil (the name compare then fails → no −4), as the original's read of segment 0 effectively does.
+- Harness note: the first batch-1 attempt crashed in LoadGame "Unable to load wallset" because the area saves kept the test save's data-set-3 wall-set slots; fixed in mkareasaves.py (slots FFFFh, the block's init vector loads its own) — not a game defect.
+- **ECL3_11 → 3_8 city-hall guard fight (44 combatants): not a loop.** Bounded diagnostic run (300 iterations, `out/RUN-3-diag/ECL3_11`) with the combat progress signature (every combatant's HP / initiative / movement + the active one): the signature changed on every iteration (no stall detected), the fight was still running at the cap. The earlier "stall" screenshots (same MORGANA menu for 200 iterations) came from the old detector, which only saw the party's position and the menu letters. Open question (por-build-qa, mine: magic_ov08.js PlayerTurn/SetQuick): 244 of the 300 iterations were party turn menus although Quick (SetQuick 4800:1231 sets TChar +10Fh := 1) should keep a character on AI control for the rest of the fight, and a dump during this fight showed +10Fh = 0 for the whole party. The only other writer of +10Fh is the Space handler (4800:0504, CheckCombatHotkeys 4D00:104D), which the driver never sends. A short check (P1-f fight, Q once, read +10Fh of each member after every idle; `RUN-3-diag/quick`) was stopped by the system (low memory) before it ran; no fix request until it shows where +10Fh is lost. Likely harness artefact: `gamepad.menuLetters` is only refreshed when a HorizontalMenu is drawn, and AI turns poll the keyboard (CheckCombatHotkeys 4D00:0FCB), which the driver also sees as idle — so most of the 244 "menus" are probably AI turns with stale letters (the Q fed there is read and ignored). The +10Fh = 0 dump is not explained by this; the short check decides.
+- **Castle districts 5_03/5_04/5_05 (harness, fixed):** first runs died with `Unable to load wallset in LoadWallSet` at ECL LOAD_PIECES(24, 25, 1) (`ecl.js:883` op21 → `view.js:115`). WALLDEF5.DAX holds only records 1 and 24 (24 = two blocks, slots 1–2); the original reaches these LOAD_PIECES only with Mem[49E7] = Mem[49E8] = 1 (set by ECL5_06's init 9C5A/9C60, kept in the game state), which takes the "slots 1 and 3 only" path (2F00:0D39); LoadWallSet faults on a missing record exactly like the original (B100:0E75 → TerminateGame). The area saves now carry those two flags for the castle blocks; re-runs clean.
+- **ECL5_06 (not a defect):** the Bane priests' damage ("MORGANA dies … ELARIEL dies", "THEY ATTACK YOU") and the following fight wiped the fresh level-4 party; `EclGameLoop` returns when the party is dead and MainProgram ends with TerminateGame (0000:0142, "Program terminated.") as the original. The walk recorded this as 3 timeouts.
+- **Driver fixes after batch 4 (not game defects):** (1) in combat a `Yes No` prompt is `Continue Battle:` (EndOfRound 4800:0971, all enemies gone) — the driver answered Y and the empty battle continued round after round (5_07, 6_01 "combat stuck"); now N. (2) the overland menu has no Area (`Cast View Encamp Search Look`, travel mode 2–4) — it was not recognised as explore (6_19 → 6_25, 6_25: 200 × Encamp/Exit); now moves. (3) unknown script menus are answered by rotating through their options (6_01: `SLBA` menu answered with S 333 times, the script redisplays it).

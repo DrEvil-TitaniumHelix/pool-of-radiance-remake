@@ -1,0 +1,149 @@
+{
+ "run": "HJCXFL",
+ "source": "back-filled from acceptance/out/acc/HJCXFL",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "PM-01-STING-TRAIN",
+   "keys": "LCJ",
+   "ref": "PM-01-STING-TRAIN",
+   "file": "02-PM-01-STING-TRAIN.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1c9117efc1acff2206ce1f4f558f71cd8d06ed4677ebe5c293226831570dfec2",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "555dfc4cfd3b216742f10ca9a05e6f6990cf7aeb66f0cc083f695c88648afe18"
+  },
+  {
+   "step": 3,
+   "name": "PM-11-WILL-BECOME",
+   "keys": "{End}{End}{End}T",
+   "ref": "PM-11-WILL-BECOME",
+   "file": "03-PM-11-WILL-BECOME.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7c858844a8865da8c8cf1b6904fe2247e8f60e0934495f217d98a9414fe6e3a0",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "254683d190fcc91e87d1b55e8ec4225bcba7d15bd78dc601323fd3f85f7b7c47"
+  },
+  {
+   "step": 4,
+   "name": "CM-08",
+   "keys": "Y",
+   "ref": "CM-08",
+   "file": "04-CM-08.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e39adfd0e5ff098bf4c2fc22a78b2d2431fda805424bec59c83e2aebbf843e6b",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "cce59fd1023b1e6ff98ca125f0bebe42daaedb7e4aee25663550b419cfc57a19"
+  },
+  {
+   "step": 5,
+   "name": "CM-08-NEXT",
+   "keys": "N",
+   "ref": "CM-08-NEXT",
+   "file": "05-CM-08-NEXT.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a05e286be305e8d0dd23ba59a68724ef1c7b516f7f877c40776f79effb21518d",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "dac9befee70564e9ec468ad5fee9e6067ea81824505aa319862c060a4b50543d"
+  },
+  {
+   "step": 6,
+   "name": "CB-11-DELAY1",
+   "keys": "{Enter}B{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Down}{Up}{Enter}",
+   "ref": "CB-11-DELAY1",
+   "file": "06-CB-11-DELAY1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dd4c4c918e80296a6c55fb5eb3873c420b6bbb0d5b2d43169192a5ebb3e67b6e",
+   "mismatch_pixels": 58486,
+   "bbox": [
+    0,
+    0,
+    319,
+    199
+   ],
+   "ref_sha256": "2e11017d53e6d72991514cf265e380f4842423c2a6e911b7e8aec10005e3b6d0"
+  },
+  {
+   "step": 7,
+   "name": "CB-11-DELAY2",
+   "keys": "DDDQDQDQDQDQ",
+   "ref": "CB-11-DELAY2",
+   "file": "07-CB-11-DELAY2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dd4c4c918e80296a6c55fb5eb3873c420b6bbb0d5b2d43169192a5ebb3e67b6e",
+   "mismatch_pixels": 59475,
+   "bbox": [
+    0,
+    0,
+    319,
+    199
+   ],
+   "ref_sha256": "f7f834790a126f0a9309d21851f495d3e98057bccedeba33c242385cc4220da8"
+  },
+  {
+   "step": 8,
+   "name": "CB-11-DELAY3",
+   "keys": "DD",
+   "ref": "CB-11-DELAY3",
+   "file": "08-CB-11-DELAY3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dd4c4c918e80296a6c55fb5eb3873c420b6bbb0d5b2d43169192a5ebb3e67b6e",
+   "mismatch_pixels": 59496,
+   "bbox": [
+    0,
+    0,
+    319,
+    199
+   ],
+   "ref_sha256": "f98cc57761f12ee9b89cfdda4acd07ccadc00457f5b150fe27af5390370dc85f"
+  },
+  {
+   "step": 9,
+   "name": "CB-11-DELAY4",
+   "keys": "DD",
+   "ref": "CB-11-DELAY4",
+   "file": "09-CB-11-DELAY4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dd4c4c918e80296a6c55fb5eb3873c420b6bbb0d5b2d43169192a5ebb3e67b6e",
+   "mismatch_pixels": 59496,
+   "bbox": [
+    0,
+    0,
+    319,
+    199
+   ],
+   "ref_sha256": "f98cc57761f12ee9b89cfdda4acd07ccadc00457f5b150fe27af5390370dc85f"
+  }
+ ]
+}

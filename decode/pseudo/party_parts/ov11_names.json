@@ -1,0 +1,11 @@
+{
+  "5700:002D": "InitGameState",
+  "0C7C:465C": "InitIdx",
+  "0C7C:4660": "ItemsFound",
+  "0C7C:4661": "SavedDataPath",
+  "0C7C:468C": "ItemsFile",
+  "0C7C:5582": "ItemTypeTable",
+  "0C7C:5E1E": "ItemsReadCount",
+  "0C7C:2614": "DiskPromptText",
+  "0C7C:5E4E": "SymbolPic"
+}

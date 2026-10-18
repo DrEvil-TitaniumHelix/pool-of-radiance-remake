@@ -1,0 +1,149 @@
+{
+ "run": "ZG2",
+ "source": "back-filled from acceptance/out/acc/ZG2",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-load.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 3,
+   "name": "walk1a",
+   "keys": "{Up}{Left}{Up}{Up}{Up}{Right}{Up}{Right}",
+   "ref": "",
+   "file": "03-walk1a.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6abeb197a534ad1e2fccfc8f17131bb8b539f879828882022ee5ee28e01934b8"
+  },
+  {
+   "step": 4,
+   "name": "enc1",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "04-enc1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9bc64cc1359add40bebf4c20475b8369b23d577c108a878f95caa3eacc9db529"
+  },
+  {
+   "step": 5,
+   "name": "ECL-10-FLEE",
+   "keys": "F",
+   "ref": "ECL-10-FLEE",
+   "file": "05-ECL-10-FLEE.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a0713a69d69e9ba6bd37e546bdb90dbe311a57f5f5ac21ddd82af67e52094aac",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "222e16ce9615b3c7f27d4f4f82d248c9bcc6f9de06bb1f7d4fc73d87adf4b803"
+  },
+  {
+   "step": 6,
+   "name": "walk2a",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "06-walk2a.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e903ee477c1edf7c6f10f4dea0671e7b84481945b13f746a57a57ba5710d23c5"
+  },
+  {
+   "step": 7,
+   "name": "enc2",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "07-enc2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "258dd7c69f842adf480a19b7486a26866c09ca9b749abb9eef51e64969cf7a0e"
+  },
+  {
+   "step": 8,
+   "name": "flee2",
+   "keys": "F",
+   "ref": "",
+   "file": "08-flee2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "bbf53037f13badb998328dff2e7a8b521b479725da2c1ab25f5a6539d64fa27f"
+  },
+  {
+   "step": 9,
+   "name": "walk3a",
+   "keys": "{Up}{Up}{Up}{Left}",
+   "ref": "",
+   "file": "09-walk3a.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "43fbc8fd9bb902d46af9486c93de45c1dbb18f9324e7ed2c4952f71d0a6683a5"
+  },
+  {
+   "step": 10,
+   "name": "enc3",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "10-enc3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9e276ef4781521f43cc05ee993a31ed67d9c812bd70f87ca761c2fe810badca3"
+  },
+  {
+   "step": 11,
+   "name": "flee3",
+   "keys": "F",
+   "ref": "",
+   "file": "11-flee3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "da244467d57a5756b858d2ff7978dffcbdb39b31c7fe0d11a9e221cb5ca56bed"
+  },
+  {
+   "step": 12,
+   "name": "VIEW-03",
+   "keys": "{Up}{Up}{Right}{Up}",
+   "ref": "VIEW-03",
+   "file": "12-VIEW-03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "481914c8dd22d2c568b693118b2bf4da19efd2a9c64b823a00a88b6dc2505994",
+   "mismatch_pixels": 9236,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "eede6d2c69ec3bc7f08871f36dcfa01a16b0983d9697793ed65279089b5b0396"
+  }
+ ]
+}

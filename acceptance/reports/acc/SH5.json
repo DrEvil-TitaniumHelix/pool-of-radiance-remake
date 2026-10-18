@@ -1,0 +1,128 @@
+{
+ "run": "SH5",
+ "source": "back-filled from acceptance/out/acc/SH5",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "prefix",
+   "keys": "LASS{Down}{Up}VI{Esc}E{Left}{Up}{Up}{Up}{Up}{Right}{Up}{Right}{Up}YHEEERYIRGES{Esc}X{Enter}NE{Down}{Up}{Left}{Up}{Left}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Right}{Down}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}Y{End}{Home}SM{End}C{Home}{Home}CSEEE{Down}{Up}{Left}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Right}{Up}AA{Up}{Up}",
+   "ref": "",
+   "file": "02-prefix.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "046eb74dd414a53ba978fe36f5db2bc4965b826ab8a094afc35b3e08310cea5e"
+  },
+  {
+   "step": 3,
+   "name": "POS.5",
+   "keys": "Y",
+   "ref": "",
+   "file": "03-POS.5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "938a54a4bbe31aa2b4ee2a8e64c47efef9bcbb401f70a865a2eaa9e9a130cf53"
+  },
+  {
+   "step": 4,
+   "name": "ENGINE-17-CLERK",
+   "keys": "{Right}{Up}",
+   "ref": "ENGINE-17-CLERK",
+   "file": "04-ENGINE-17-CLERK.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "38fb2b2ca1e038011172a5999cb33fa14f36e9577e5863483945545b200be6b0",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "dbca042f36b6bbd288534339ee4c7c16871f76ceaa6c0077ff624504a23f72f4"
+  },
+  {
+   "step": 5,
+   "name": "COMMISSION.1",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "05-COMMISSION.1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "373e1218aa6c9caaa3d58ff03e3ae86be0ced9069e34fe3509fd2db38df48da6"
+  },
+  {
+   "step": 6,
+   "name": "COMMISSION.2",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "06-COMMISSION.2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "260e411b9f5d428559846bc933f5967c1b377c53838e08ef8c3b2bb1dfa6e49b"
+  },
+  {
+   "step": 7,
+   "name": "REF-CHECK-COMMISSION",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ref": "REF-CHECK-COMMISSION",
+   "file": "07-REF-CHECK-COMMISSION.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "bff0f76408506633fee9c97720fbdee33f4a4e4b4394385e0833d8f4a2b90e86",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "caa4c6972b79c547826cc1628e065b39d67ca0538d963d6deb78d60957f6dbde"
+  },
+  {
+   "step": 8,
+   "name": "walk1",
+   "keys": "{Down}{Up}{Right}{Up}{Left}{Up}",
+   "ref": "",
+   "file": "08-walk1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1b5999686f8840ef9a83598252e3d000351a874bd3adaf187872396cff385708"
+  },
+  {
+   "step": 9,
+   "name": "REF-CHECK-HARBOR",
+   "keys": "{Right}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}",
+   "ref": "REF-CHECK-HARBOR",
+   "file": "09-REF-CHECK-HARBOR.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "28eeb3f07e0b9730789a531595187503d8745391b2b76841da36ab655aaefb5f",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "0473921808a92a686058323fa14f95dddce1b5c84e43dad8a8c29d714757eb13"
+  },
+  {
+   "step": 10,
+   "name": "REF-CHECK-BOAT",
+   "keys": "{Enter}{Down}{Up}",
+   "ref": "REF-CHECK-BOAT",
+   "file": "10-REF-CHECK-BOAT.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "480599d3f0d2013844e06700eed41035ec1c7f3033c333f697eff2d0be5cf3aa",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "697e4506f07e3ededc5b8c6debd8829e223c5fece2743d24eb2bfd70e6783d7a"
+  }
+ ]
+}

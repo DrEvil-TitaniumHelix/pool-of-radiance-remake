@@ -1,0 +1,65 @@
+{
+ "name": "RUN-2/1-fight",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "name": "menu",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC"
+  },
+  {
+   "name": "begin",
+   "keys": "B"
+  },
+  {
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ms": 90000
+  },
+  {
+   "name": "walk-until-encounter",
+   "keys": "{Up}{Up}{Right}{Up}{Left}",
+   "until": "(e => e.g_84E9 === 1 || e.g_49F3 === 5)((await import('/areas/ecl_host.js')).eclG)",
+   "repeat": 40,
+   "ms": 40000
+  },
+  {
+   "name": "combat-choice",
+   "keys": "C",
+   "until": "(e => e.g_49F3 === 5)((await import('/areas/ecl_host.js')).eclG)",
+   "repeat": 3,
+   "ms": 60000
+  },
+  {
+   "name": "quick-until-done",
+   "keys": "Q",
+   "until": "(e => e.g_49F3 !== 5)((await import('/areas/ecl_host.js')).eclG)",
+   "repeat": 60,
+   "ms": 60000
+  },
+  {
+   "name": "after-combat",
+   "keys": "{Enter}",
+   "ms": 60000
+  },
+  {
+   "name": "treasure-exit",
+   "keys": "E",
+   "ms": 60000
+  },
+  {
+   "name": "leave-treasure-no",
+   "keys": "N",
+   "ms": 60000
+  },
+  {
+   "name": "explore-walk",
+   "keys": "{Up}",
+   "ms": 60000,
+   "probe": "(g => g.PartyHead ? (() => { const o = []; for (let p = g.PartyHead; p; p = p.next) o.push([String.fromCharCode(...p.b.slice(1, 1 + p.b[0])), p.b[0xAC] | p.b[0xAD] << 8 | p.b[0xAE] << 16, p.b[0x11B], p.b[0x32]]); return o; })() : null)((await import('/areas/ecl_host.js')).eclG)"
+  }
+ ]
+}

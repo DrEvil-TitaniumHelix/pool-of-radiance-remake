@@ -1,0 +1,193 @@
+{
+ "run": "SH4",
+ "source": "back-filled from acceptance/out/acc/SH4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "prefix",
+   "keys": "LASS{Down}{Up}VI{Esc}E{Left}{Up}{Up}{Up}{Up}{Right}{Up}{Right}{Up}YHEEERYIRGES{Esc}X{Enter}NE{Down}{Up}{Left}{Up}{Left}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Right}{Down}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}Y",
+   "ref": "",
+   "file": "02-prefix.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0d1cbac3fccce9a4b0db97880413c6b5b1073354a4a25962f8eb60ee9701273c"
+  },
+  {
+   "step": 3,
+   "name": "ENGINE-47",
+   "keys": "",
+   "ref": "ENGINE-47",
+   "file": "03-ENGINE-47.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0d1cbac3fccce9a4b0db97880413c6b5b1073354a4a25962f8eb60ee9701273c",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "778806939a812d197c7204c4dd257c5497c7024c29a713cb6898f897134f7f72"
+  },
+  {
+   "step": 4,
+   "name": "ENGINE-47-NEXT",
+   "keys": "{End}",
+   "ref": "ENGINE-47-NEXT",
+   "file": "04-ENGINE-47-NEXT.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2f7585ebb4fba0a855c4e6443d9b83d656bf4290bb14ac0f7126e8c4257ca3d1",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "173ad46db93b5841acc904a8bb843e523b6d608be616e659485cc6092fa937ae"
+  },
+  {
+   "step": 5,
+   "name": "REF-CHECK-INN-CAMP",
+   "keys": "{Home}S",
+   "ref": "REF-CHECK-INN-CAMP",
+   "file": "05-REF-CHECK-INN-CAMP.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2fdd732a798b51fb8bcfed444c3fe571110f976348b042550e383e756cf5a313",
+   "mismatch_pixels": 676,
+   "bbox": [
+    25,
+    27,
+    111,
+    111
+   ],
+   "ref_sha256": "1469aad0447140e3ff77413c9d96e5b4b886556e9015aba3f2020b3375437230"
+  },
+  {
+   "step": 6,
+   "name": "magic",
+   "keys": "M{End}C",
+   "ref": "",
+   "file": "06-magic.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "148cc37e91484a7c1c8da60958b3ca63bb421daee16b523f2a8adb61f34ed386"
+  },
+  {
+   "step": 7,
+   "name": "REF-CHECK-HEAL",
+   "keys": "{Home}{Home}C",
+   "ref": "REF-CHECK-HEAL",
+   "file": "07-REF-CHECK-HEAL.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6537f531a224e2de89d5a8286e7104bf5656d42870a1c34a5081b53a084ee8ae",
+   "mismatch_pixels": 676,
+   "bbox": [
+    25,
+    27,
+    111,
+    111
+   ],
+   "ref_sha256": "5b8b486fa801bb2246acbd073377b60ea0d7cec12f41cfed00c158da667b07ce"
+  },
+  {
+   "step": 8,
+   "name": "ENGINE-40",
+   "keys": "S",
+   "ref": "ENGINE-40",
+   "file": "08-ENGINE-40.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0a48651bc1e2bc8e5f00b37cda5fee78bf5f7dd938932c3cb8293107aa717446",
+   "mismatch_pixels": 14266,
+   "bbox": [
+    0,
+    0,
+    319,
+    198
+   ],
+   "ref_sha256": "5965c15ccdb7ff4527f591e652b0335fde59b707e3f944e83165944c8743b12c"
+  },
+  {
+   "step": 9,
+   "name": "healed",
+   "keys": "",
+   "ref": "",
+   "file": "09-healed.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0a48651bc1e2bc8e5f00b37cda5fee78bf5f7dd938932c3cb8293107aa717446"
+  },
+  {
+   "step": 10,
+   "name": "POS.4",
+   "keys": "EE",
+   "ref": "",
+   "file": "10-POS.4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c7e34d91d51ad8e114d55506eb9e96ba06c69e681d2fba71f2bdd36fc46662d0"
+  },
+  {
+   "step": 11,
+   "name": "ECL-02-CITYHALL",
+   "keys": "E{Down}{Up}{Left}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Right}{Up}",
+   "ref": "ECL-02-CITYHALL",
+   "file": "11-ECL-02-CITYHALL.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "afd276e66890ff248af659aaad3c56f008df8b3c75dd9cf0bbe96d260e70699b",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "115cbbbdd656ea13ffe23825401331480fe5020b556996f12440fe6c824327a4"
+  },
+  {
+   "step": 12,
+   "name": "REF-CHECK-HALL-MAP",
+   "keys": "A",
+   "ref": "REF-CHECK-HALL-MAP",
+   "file": "12-REF-CHECK-HALL-MAP.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c36546a85d1c7f230d66d7cc93a13c1349f9d274d986db52ce703b32aa1e7c8b",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "23c45486a85a14fd8a23a57ada5c4cfa9883d6137dc147809ffea76cbca4a14b"
+  },
+  {
+   "step": 13,
+   "name": "ENGINE-17",
+   "keys": "A{Up}{Up}",
+   "ref": "ENGINE-17",
+   "file": "13-ENGINE-17.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "046eb74dd414a53ba978fe36f5db2bc4965b826ab8a094afc35b3e08310cea5e",
+   "mismatch_pixels": 798,
+   "bbox": [
+    1,
+    192,
+    263,
+    198
+   ],
+   "ref_sha256": "d4639dbaaf123b576d19647ff2a525593066054ec6aa89a8e80a75e56e2f5fd1"
+  }
+ ]
+}

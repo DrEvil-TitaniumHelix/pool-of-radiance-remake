@@ -1,0 +1,10 @@
+# personal_gate.py allow-list: game text that matches a pattern (path:regex, one per line, path * = any file)
+# "Attack Ally: " is the original combat prompt (6100:29c5), quoted in code and decode notes
+*:Attack Ally
+# "ally" = a combatant of the own side (decode prose about the same routine)
+decode/pseudo/COMBAT.pas.md:\bally\b
+decode/pseudo/combat_parts/ov13.pas.md:\bally\b
+decode/pseudo/combat_parts/ov13_notes.md:\bally\b
+# experience-level table (Elf 175 550 875 1200 1600), not a phone number
+decode/pseudo/PARTY.pas.md:Elf 175 550 875 1200
+decode/pseudo/party_parts/ov16a.pas.md:Elf 175 550 875 1200

@@ -1,0 +1,128 @@
+"""String-literal inventory (resident + overlays) -> decode/STRINGS.md, decode/strings.tsv (por-tooling).
+
+Usage: python strings_inv.py   (needs decode/bin/ghidra/ from ghidra_prep.py and decode/listings/ from PorExport)
+
+Method:
+  1. Code segments: TP stores string literals as Pascal strings (length byte + text) in the code segment, outside
+     procedure bodies. Every byte not covered by a disassembled instruction (from decode/listings/*.lst) is scanned
+     greedily for length-prefixed runs of printable ASCII 20h..7Eh (length >= 1, string must end inside the gap).
+  2. References: an instruction annotated `[ps] cs:"..."` by PorExport (immediate next to PUSH CS) names the
+     literal at that immediate offset in the instruction's own segment.
+  3. DS strings: DS offsets referenced by code (decode/globals_xref.tsv) whose initial image bytes are a
+     printable Pascal string (typed constants / initialised string variables).
+Confidence: ref = referenced by code (H); gap = unreferenced gap string (M; may be a literal reached only via
+a computed pointer, or a false positive in data/padding, especially for 1-3 char strings).
+"""
+import collections, csv, glob, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+B = os.path.join(R, "decode/bin/ghidra")
+LINE = re.compile(r"^  ([0-9a-f]{4}):([0-9a-f]{4})  ([0-9a-f]+)\s+(\S+)\s*([^;]*?)\s*(?:;\s*(.*))?$")
+DS, INIT = 0x0C7C, 0x4430
+
+
+def blocks():
+    res = open(os.path.join(B, "resident.bin"), "rb").read()
+    out = {}
+    for ln in open(os.path.join(B, "layout.txt")):
+        f = ln.split()
+        if f[0] == "R" and not f[3].startswith("stub_") and f[3] != "dseg":
+            seg, size = int(f[1], 16), int(f[2], 16)
+            out[f[3]] = (seg, res[seg * 16:seg * 16 + size])
+        elif f[0] == "O":
+            i, seg = int(f[1]), int(f[2], 16)
+            out["ov%02d" % i] = (seg, open(os.path.join(B, "ov%02d.bin" % i), "rb").read())
+    return out, res
+
+
+def ok(c):
+    return 0x20 <= c <= 0x7E
+
+
+def main():
+    blk, res = blocks()
+    found = {}   # (unit, off) -> text
+    refs = collections.defaultdict(set)
+    for unit, (seg, data) in blk.items():
+        cover = bytearray(len(data))
+        lst = os.path.join(R, "decode/listings/%s.lst" % unit)
+        if not os.path.exists(lst):
+            continue
+        func = None
+        for ln in open(lst, encoding="latin-1"):
+            if ln.startswith(";==== "):
+                func = ln.split()[1]; continue
+            m = LINE.match(ln.rstrip("\n"))
+            if not m: continue
+            off = int(m.group(2), 16); n = len(m.group(3)) // 2
+            cover[off:off + n] = b"\1" * n
+            if m.group(6) and m.group(6).startswith('[ps] cs:'):
+                v = re.findall(r"0x([0-9a-f]+)", m.group(5))
+                if v: refs[(unit, int(v[-1], 16))].add(func)
+        p = 0
+        while p < len(data):
+            if cover[p]:
+                p += 1; continue
+            e = p
+            while e < len(data) and not cover[e]: e += 1
+            q = p
+            while q < e:
+                n = data[q]
+                if n >= 1 and q + 1 + n <= e and all(ok(c) for c in data[q + 1:q + 1 + n]):
+                    found[(unit, q)] = data[q + 1:q + 1 + n].decode("ascii")
+                    q += 1 + n
+                else:
+                    q += 1
+            p = e
+        for (u, off) in list(refs):
+            if u == unit and (u, off) not in found and off < len(data):
+                n = data[off]
+                found[(u, off)] = data[off + 1:off + 1 + n].decode("latin-1")
+    # DS strings referenced by code
+    dsimg = res[DS * 16:DS * 16 + INIT]
+    xr = os.path.join(R, "decode/globals_xref.tsv")
+    for r in csv.DictReader(open(xr), delimiter="\t"):
+        off = int(r["ds_off"], 16)
+        if off < INIT:
+            n = dsimg[off]
+            if n >= 2 and off + 1 + n <= INIT and all(ok(c) for c in dsimg[off + 1:off + 1 + n]):
+                found[("dseg", off)] = dsimg[off + 1:off + 1 + n].decode("ascii")
+                refs[("dseg", off)].add("%s/%s" % (r["unit"], r["function"]))
+    segs = {u: s for u, (s, _) in blk.items()}
+    segs["dseg"] = DS
+
+    def order(k):
+        u = k[0]
+        return (u.startswith("ov"), u, k[1])
+    keys = sorted(found, key=order)
+    with open(os.path.join(R, "decode/strings.tsv"), "w", newline="\n", encoding="utf-8") as f:
+        f.write("unit\taddr\tlen\tconf\treferenced_by\ttext\n")
+        for k in keys:
+            f.write("%s\t%04X:%04X\t%d\t%s\t%s\t%s\n" % (k[0], segs[k[0]], k[1], len(found[k]), "ref" if refs.get(k) else "gap",
+                                                        ",".join(sorted(refs.get(k, ()))), found[k].replace("\t", " ")))
+    per = collections.Counter(k[0] for k in keys)
+    nref = sum(1 for k in keys if refs.get(k))
+    md = ["# STRINGS — string-literal inventory (generated by decode/tools/strings_inv.py; regenerate, do not edit)", "",
+          "Input for the screens inventory. Every Pascal string literal in the resident code segments, the 35 overlay units and the initialised DS, with its analysis address (seg:off as in `decode/listings`; overlay unit N at seg 2000+N*500 = GAME.OVR offset `file_ofs(N)+off`, see LAYOUT.md) and the functions that reference it.",
+          "**conf**: `ref` = referenced by code (immediate next to PUSH CS, or a DS operand), H. `gap` = Pascal string found in non-instruction bytes but with no static reference (M: may be reached by a computed pointer or from undisassembled code; 1-3-char gap strings can be false positives).",
+          "Strings are shown verbatim (`|` escaped). Machine-readable: `decode/strings.tsv`.", "",
+          "Totals: %d strings, %d referenced, %d gap-only." % (len(keys), nref, len(keys) - nref), "",
+          "| unit | strings | referenced |", "|---|---|---|"]
+    for u in sorted(per, key=lambda u: (u.startswith("ov"), u)):
+        md.append("| %s | %d | %d |" % (u, per[u], sum(1 for k in keys if k[0] == u and refs.get(k))))
+    cur = None
+    for k in keys:
+        if k[0] != cur:
+            cur = k[0]
+            md += ["", "## %s (seg %04X)" % (cur, segs[cur]), "", "| addr | len | conf | text | referenced by |", "|---|---|---|---|---|"]
+        t = found[k].replace("|", "\\|").replace("`", "'")
+        md.append("| %04X:%04X | %d | %s | `%s` | %s |" % (segs[k[0]], k[1], len(found[k]), "ref" if refs.get(k) else "gap", t,
+                                                          ", ".join(sorted(refs.get(k, ())))))
+    open(os.path.join(R, "decode/STRINGS.md"), "w", encoding="utf-8").write("\n".join(md) + "\n")
+    print("strings %d referenced %d gap %d" % (len(keys), nref, len(keys) - nref))
+    print(sorted(per.items()))
+
+
+if __name__ == "__main__":
+    main()

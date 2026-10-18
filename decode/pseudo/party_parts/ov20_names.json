@@ -1,0 +1,23 @@
+{
+ "8400:0000": "TickEffects",
+ "8400:02F2": "CarryClock",
+ "8400:03A3": "NormalizeRestClock",
+ "8400:03D5": "AdvanceClock",
+ "8400:047A": "DecRestClock",
+ "8400:0565": "TwoDigits",
+ "8400:05F0": "DrawRestTime",
+ "8400:0721": "RestMenu",
+ "8400:0871": "DailyHealing",
+ "8400:0925": "FinishMemorize",
+ "8400:09E7": "FinishScribe",
+ "8400:0B0A": "StudyTick",
+ "8400:0BB2": "StudyHourTick",
+ "8400:0C9A": "RestLoop",
+ "0C7C:363A": "ClockLimits",
+ "0C7C:471E": "EffectsPending",
+ "0C7C:49FB": "RestEncCounter",
+ "0C7C:6DC2": "RestClock",
+ "0C7C:6DCF": "StudyTimer",
+ "0C7C:6DD8": "HealCounter",
+ "0C7C:6DDA": "RestActive"
+}

@@ -1,0 +1,138 @@
+{
+ "run": "AD01",
+ "source": "back-filled from acceptance/out/acc/AD01",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "pre",
+   "keys": "LASS{Down}",
+   "ref": "",
+   "file": "02-pre.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ee09e3ab3e808b2bd0f96b5e8c20b34b98dfce70335fd62f4a7add761a7dc98c"
+  },
+  {
+   "step": 3,
+   "name": "up",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "03-up.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b267d129d37fdd1b94d3c9e6c46b6a07e33906dec051ce3ff14f8644e4ab0ba0"
+  },
+  {
+   "step": 4,
+   "name": "t1",
+   "keys": "",
+   "ref": "",
+   "file": "04-t1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5a74f038466e0256e8d4fc601623695b82099416ee96b8d88efd53f9d7153aa0"
+  },
+  {
+   "step": 5,
+   "name": "t2",
+   "keys": "",
+   "ref": "",
+   "file": "05-t2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "d38e29b1f1b7bc098f763bebc08231ba44886195d56ee21f127b655a8b8ab114"
+  },
+  {
+   "step": 6,
+   "name": "t3",
+   "keys": "",
+   "ref": "",
+   "file": "06-t3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 7,
+   "name": "t4",
+   "keys": "",
+   "ref": "",
+   "file": "07-t4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 8,
+   "name": "t5",
+   "keys": "",
+   "ref": "",
+   "file": "08-t5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 9,
+   "name": "t6",
+   "keys": "",
+   "ref": "",
+   "file": "09-t6.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 10,
+   "name": "t7",
+   "keys": "",
+   "ref": "",
+   "file": "10-t7.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 11,
+   "name": "t8",
+   "keys": "",
+   "ref": "",
+   "file": "11-t8.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  },
+  {
+   "step": 12,
+   "name": "idle",
+   "keys": "",
+   "ref": "",
+   "file": "12-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338"
+  }
+ ]
+}

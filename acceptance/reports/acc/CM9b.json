@@ -1,0 +1,182 @@
+{
+ "run": "CM9b",
+ "source": "back-filled from acceptance/out/acc/CM9b",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "camp",
+   "keys": "E{End}{End}M",
+   "ref": "",
+   "file": "05-camp.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "94ac23ce734ee83ea9f8127294b0c95b1050362c65839ec242fd3dab08751369"
+  },
+  {
+   "step": 6,
+   "name": "S",
+   "keys": "S",
+   "ref": "",
+   "file": "06-S.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1"
+  },
+  {
+   "step": 7,
+   "name": "t0",
+   "keys": "",
+   "ref": "",
+   "file": "07-t0.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1"
+  },
+  {
+   "step": 8,
+   "name": "t1",
+   "keys": "",
+   "ref": "",
+   "file": "08-t1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1"
+  },
+  {
+   "step": 9,
+   "name": "t2",
+   "keys": "",
+   "ref": "",
+   "file": "09-t2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8"
+  },
+  {
+   "step": 10,
+   "name": "t3",
+   "keys": "",
+   "ref": "",
+   "file": "10-t3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8"
+  },
+  {
+   "step": 11,
+   "name": "t4",
+   "keys": "",
+   "ref": "",
+   "file": "11-t4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dcc46adf53c102181c82ffbaed09cfee5acb6482eaa03176dc8aaab185884e5c"
+  },
+  {
+   "step": 12,
+   "name": "t5",
+   "keys": "",
+   "ref": "",
+   "file": "12-t5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8"
+  },
+  {
+   "step": 13,
+   "name": "t6",
+   "keys": "",
+   "ref": "",
+   "file": "13-t6.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dcc46adf53c102181c82ffbaed09cfee5acb6482eaa03176dc8aaab185884e5c"
+  },
+  {
+   "step": 14,
+   "name": "t7",
+   "keys": "",
+   "ref": "",
+   "file": "14-t7.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8"
+  },
+  {
+   "step": 15,
+   "name": "t8",
+   "keys": "",
+   "ref": "",
+   "file": "15-t8.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dcc46adf53c102181c82ffbaed09cfee5acb6482eaa03176dc8aaab185884e5c"
+  },
+  {
+   "step": 16,
+   "name": "t9",
+   "keys": "",
+   "ref": "",
+   "file": "16-t9.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dcc46adf53c102181c82ffbaed09cfee5acb6482eaa03176dc8aaab185884e5c"
+  }
+ ]
+}

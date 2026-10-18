@@ -1,0 +1,42 @@
+{
+ "name": "P1-b",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "name": "menu",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC"
+  },
+  {
+   "name": "begin",
+   "keys": "B"
+  },
+  {
+   "name": "rolf-enter",
+   "keys": "{Enter}"
+  },
+  {
+   "name": "enter01",
+   "keys": "{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter02",
+   "keys": "{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter03",
+   "keys": "{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter04",
+   "keys": "{Enter}",
+   "ms": 40000
+  }
+ ]
+}
