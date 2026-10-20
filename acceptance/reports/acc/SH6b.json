@@ -1,0 +1,203 @@
+{
+ "run": "SH6b",
+ "source": "back-filled from acceptance/out/acc/SH6b",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "prefix",
+   "keys": "LASS{Down}{Up}VI{Esc}E{Left}{Up}{Up}{Up}{Up}{Right}{Up}{Right}{Up}YHEEERYIRGES{Esc}X{Enter}NE{Down}{Up}{Left}{Up}{Left}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Right}{Down}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}Y{End}{Home}SM{End}C{Home}{Home}CSEEE{Down}{Up}{Left}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Right}{Up}AA{Up}{Up}Y{Right}{Up}{Enter}{Enter}{Enter}{Enter}{Enter}{Down}{Up}{Right}{Up}{Left}{Up}{Right}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}{Enter}{Down}{Up}",
+   "ref": "",
+   "file": "02-prefix.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "480599d3f0d2013844e06700eed41035ec1c7f3033c333f697eff2d0be5cf3aa"
+  },
+  {
+   "step": 3,
+   "name": "REF-CHECK-SOKAL",
+   "keys": "{Down}{Up}{Right}{Up}{Up}{Up}{Up}{Enter}",
+   "ref": "REF-CHECK-SOKAL",
+   "file": "03-REF-CHECK-SOKAL.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "cb2257617c0edefc10f28b0392ebd775bb295354c6cfa782c766d9ac2ce3e942",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "05e1fb4c6701e9caf0442b593a56eed710712ef7ba1ec665e186d805808281ad"
+  },
+  {
+   "step": 4,
+   "name": "CORPSE.1",
+   "keys": "{Enter}{Up}{Left}{Up}{Left}{Up}",
+   "ref": "",
+   "file": "04-CORPSE.1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4c07b16c7abb38443c8eba97d53e480e669dde54ba6e7f97637fcc0515c75086"
+  },
+  {
+   "step": 5,
+   "name": "CORPSE.2",
+   "keys": "{Up}{Left}{Up}",
+   "ref": "",
+   "file": "05-CORPSE.2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "079d6417d86e1f7b27a30fae51e5d806dbce721ffb786c0436edab60abe0618c"
+  },
+  {
+   "step": 6,
+   "name": "CORPSE.3",
+   "keys": "{Left}{Up}{Right}",
+   "ref": "",
+   "file": "06-CORPSE.3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9e77f3ad8cdb10f1fbd848f4cfdc7f1ba36c75f500ca60da070b2073b5ea164b"
+  },
+  {
+   "step": 7,
+   "name": "flee",
+   "keys": "F",
+   "ref": "",
+   "file": "07-flee.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9e77f3ad8cdb10f1fbd848f4cfdc7f1ba36c75f500ca60da070b2073b5ea164b"
+  },
+  {
+   "step": 8,
+   "name": "n1",
+   "keys": "{Left}{Up}",
+   "ref": "",
+   "file": "08-n1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2501b68b9f9d498853cd378eca2c0d628978e770ca9e9e3fefae84237dd755b6"
+  },
+  {
+   "step": 9,
+   "name": "w1",
+   "keys": "{Left}{Up}",
+   "ref": "",
+   "file": "09-w1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "548f7e77a3c40834e65cf4d4b470983e758ac5e0cc3b2f49bd478c1200517344"
+  },
+  {
+   "step": 10,
+   "name": "REF-CHECK-CORPSE",
+   "keys": "{Up}",
+   "ref": "REF-CHECK-CORPSE",
+   "file": "10-REF-CHECK-CORPSE.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "d652d4dc9c8055e9812f40d59e5b3fe6a03c42454d7806370c48eb5133766e07",
+   "mismatch_pixels": 583,
+   "bbox": [
+    137,
+    32,
+    247,
+    126
+   ],
+   "ref_sha256": "7755b896a50ee207eb9d85737e41c92f10dedb0193d098fa24432f2da992fbfa"
+  },
+  {
+   "step": 11,
+   "name": "ECL-06",
+   "keys": "{Enter}",
+   "ref": "ECL-06",
+   "file": "11-ECL-06.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "199e2ea455d9ce3993c8900134652f13637dab471b2e1e8ab427c4f33a6c0ed3",
+   "mismatch_pixels": 583,
+   "bbox": [
+    137,
+    32,
+    247,
+    126
+   ],
+   "ref_sha256": "c1a7e39991a2877550a8e6c359a3678189d3403c16bdba20833d93d7aba13bb4"
+  },
+  {
+   "step": 12,
+   "name": "ECL-06-SELECT",
+   "keys": "{End}",
+   "ref": "ECL-06-SELECT",
+   "file": "12-ECL-06-SELECT.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "f5923d51bee022390110790bb750f1b1ab31bf8bae8cc92f779c2aacf26e8731",
+   "mismatch_pixels": 583,
+   "bbox": [
+    137,
+    32,
+    247,
+    126
+   ],
+   "ref_sha256": "607937a97d4637bfbef102956f2ec0b59eb6c83ae9a9ab2679a6ec8895e2ead8"
+  },
+  {
+   "step": 13,
+   "name": "ECL-06-ESC",
+   "keys": "{Esc}",
+   "ref": "ECL-06-ESC",
+   "file": "13-ECL-06-ESC.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "41438467074c050a21928ac56a753ebac6f48782c64e863fa2da45364e3003a9",
+   "mismatch_pixels": 583,
+   "bbox": [
+    137,
+    32,
+    247,
+    126
+   ],
+   "ref_sha256": "a3474515ba1cde811ad0626674aa20079f99b9a11c86e9ddc4fedc41f7c3b62f"
+  },
+  {
+   "step": 14,
+   "name": "ECL-16",
+   "keys": "{Enter}",
+   "ref": "ECL-16",
+   "file": "14-ECL-16.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5b1d8e4f577047a898e19ede4dfcdce4a8870d279f1a0a5b3356f0808be402e7",
+   "mismatch_pixels": 583,
+   "bbox": [
+    137,
+    32,
+    247,
+    126
+   ],
+   "ref_sha256": "5e03a7f61d8d7cbb28cfec50224b5419acd2054fd04cbfdf808585389cccf87a"
+  }
+ ]
+}

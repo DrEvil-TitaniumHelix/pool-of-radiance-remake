@@ -1,0 +1,20 @@
+{
+ "run": "ERR-SY02",
+ "source": "back-filled from acceptance/out/acc/ERR-SY02",
+ "steps": [
+  {
+   "step": 1,
+   "name": "SY-02",
+   "keys": "",
+   "ref": "SY-02",
+   "file": "01-SY-02.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e2d3783c89a2a071248e81d9159cd812bb3e1fdc1eab7dc3160f2aaacaf12689",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "5c6408dfc947d7af7ecd19b7194c784d474465d1bb00a705410f308cb5ef6995"
+  }
+ ]
+}

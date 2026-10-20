@@ -1,0 +1,5 @@
+{
+  "2000:0042": "HeapErrorHandler",
+  "2000:00AC": "InstallHeapErrorHandler",
+  "0C7C:49D0": "LowMemSaveGame"
+}

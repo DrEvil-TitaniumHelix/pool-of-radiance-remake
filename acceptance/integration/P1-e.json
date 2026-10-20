@@ -1,0 +1,108 @@
+{
+ "name": "P1-e",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "name": "menu",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC"
+  },
+  {
+   "name": "begin",
+   "keys": "B"
+  },
+  {
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ms": 90000
+  },
+  {
+   "name": "to-slums",
+   "keys": "{Up}{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "route01",
+   "keys": "{Left}",
+   "ms": 40000
+  },
+  {
+   "name": "route02",
+   "keys": "{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "route03",
+   "keys": "{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "route04",
+   "keys": "{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "route05",
+   "keys": "{Right}",
+   "ms": 40000
+  },
+  {
+   "name": "route06",
+   "keys": "{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "route07",
+   "keys": "{Right}",
+   "ms": 40000
+  },
+  {
+   "name": "route08",
+   "keys": "{Up}",
+   "ms": 40000
+  },
+  {
+   "name": "combat-key",
+   "keys": "C",
+   "ms": 60000
+  },
+  {
+   "name": "quick1",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "quick2",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "quick3",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "quick4",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "quick5",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "quick6",
+   "keys": "Q",
+   "ms": 60000
+  },
+  {
+   "name": "after-quick",
+   "keys": "",
+   "ms": 120000
+  }
+ ]
+}

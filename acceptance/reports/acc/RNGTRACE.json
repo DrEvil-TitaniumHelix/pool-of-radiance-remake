@@ -1,0 +1,39 @@
+{
+ "run": "RNGTRACE",
+ "source": "back-filled from acceptance/out/acc/RNGTRACE",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "view",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 3,
+   "name": "look",
+   "keys": "L",
+   "ref": "",
+   "file": "03-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7563c68cd0a173b3015a6db166a9abadaffe60da3bf903d778a4cc8e1eb8e5d4"
+  }
+ ]
+}

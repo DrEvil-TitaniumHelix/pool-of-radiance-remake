@@ -1,0 +1,147 @@
+{
+ "run": "SH2",
+ "source": "back-filled from acceptance/out/acc/SH2",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "prefix",
+   "keys": "LASS{Down}{Up}VI{Esc}E{Left}{Up}{Up}{Up}{Up}{Right}{Up}",
+   "ref": "",
+   "file": "02-prefix.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "584d90542495e43d1c506ddbfda667fc5037be97001cdde00682cb96f336c7e7"
+  },
+  {
+   "step": 3,
+   "name": "REF-CHECK-LOCKED",
+   "keys": "{Right}{Up}",
+   "ref": "REF-CHECK-LOCKED",
+   "file": "03-REF-CHECK-LOCKED.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4678db6d46ffbfbf5043f5a60d0ae2c767d8d5a35e346a5236f5724e18ae66e6",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "1439c5e643bed831f70c4ee93231829ede723aaf25a8526be126c635416d1ef1"
+  },
+  {
+   "step": 4,
+   "name": "ECL-12-TEMPLE",
+   "keys": "Y",
+   "ref": "ECL-12-TEMPLE",
+   "file": "04-ECL-12-TEMPLE.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ea6c5de474f2b684efb54d8011bf8b32f922839f3c7dbfd2980debd42147d70f",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "df511778a90b5f3a151583ade70b22b7e184a9b08f4af9136037b3617ec26e21"
+  },
+  {
+   "step": 5,
+   "name": "ENGINE-47.1",
+   "keys": "H",
+   "ref": "",
+   "file": "05-ENGINE-47.1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ce2efecaf55e4d8dd7d2984a915012d851cb970a0227ddb90f1c59e21db896"
+  },
+  {
+   "step": 6,
+   "name": "exit1",
+   "keys": "E",
+   "ref": "",
+   "file": "06-exit1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4abfc9253e7b3bcab2185ea5312220f539a79fcca87ed455c73e8722393daf0c"
+  },
+  {
+   "step": 7,
+   "name": "exit2",
+   "keys": "E",
+   "ref": "",
+   "file": "07-exit2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8b2c4e6d1e7b4a3a6783fd8ce5eccf9409a0858b5c4183014288b7404ff16b9d"
+  },
+  {
+   "step": 8,
+   "name": "exit3",
+   "keys": "E",
+   "ref": "",
+   "file": "08-exit3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6c82b824f249d0e93137f08a49e45d2b5e6558b12af0ce66ee11bda5568b8bed"
+  },
+  {
+   "step": 9,
+   "name": "ECL-14-REST",
+   "keys": "R",
+   "ref": "ECL-14-REST",
+   "file": "09-ECL-14-REST.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "88985f4caba99ef7209bed5ab9d853185b981b6e71dbf9669d5b499162dc26f2",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "1997b645398fd8130f37ffea29030287c0298e7a6a05a025d731c08b82cb353e"
+  },
+  {
+   "step": 10,
+   "name": "rest-y",
+   "keys": "Y",
+   "ref": "",
+   "file": "10-rest-y.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "19bef7a011be484c334c48d3eaf4da59cd6ee548070421063bcdc8732529663b"
+  },
+  {
+   "step": 11,
+   "name": "rest-i",
+   "keys": "I",
+   "ref": "",
+   "file": "11-rest-i.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6fea2422bd3aa6d16258980d1cacf3b25ecd53cd109d203241ac4c9940a6b68a"
+  },
+  {
+   "step": 12,
+   "name": "rest-r",
+   "keys": "R",
+   "ref": "",
+   "file": "12-rest-r.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "59af824311aacbb356754d72d38812c4264f8faf42cbb5766de0310ba384cf75"
+  }
+ ]
+}

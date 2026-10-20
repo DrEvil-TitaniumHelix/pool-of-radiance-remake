@@ -1,0 +1,20 @@
+{ "name": "RUN-2/5-save", "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+  "steps": [
+    { "name": "menu", "keys": "" },
+    { "name": "load-C", "keys": "LC" },
+    { "name": "begin", "keys": "B" },
+    { "name": "tour", "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}", "ms": 90000 },
+    { "name": "walk", "keys": "{Right}{Right}{Up}{Up}" },
+    { "name": "encamp", "keys": "E" },
+    { "name": "save-which", "keys": "S" },
+    { "name": "save-D-quit-prompt", "keys": "D" },
+    { "name": "quit-no", "keys": "N" },
+    { "name": "camp-exit", "keys": "E",
+      "probe": "(g => [g.party_MapX, g.party_MapY, g.party_Dir])((await import('/areas/ecl_host.js')).eclG)" },
+    { "name": "reload-menu", "reload": true },
+    { "name": "load-which", "keys": "L" },
+    { "name": "load-D", "keys": "D",
+      "probe": "(g => [g.party_MapX, g.party_MapY, g.party_Dir])((await import('/areas/ecl_host.js')).eclG)" },
+    { "name": "begin-after-load", "keys": "B" },
+    { "name": "view-char", "keys": "V" }
+  ] }

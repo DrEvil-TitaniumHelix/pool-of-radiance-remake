@@ -1,0 +1,217 @@
+{
+ "run": "FIRE3",
+ "source": "back-filled from acceptance/out/acc/FIRE3",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "camp",
+   "keys": "E{End}{End}M",
+   "ref": "",
+   "file": "05-camp.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "94ac23ce734ee83ea9f8127294b0c95b1050362c65839ec242fd3dab08751369"
+  },
+  {
+   "step": 6,
+   "name": "S",
+   "keys": "S",
+   "ref": "CM-09",
+   "file": "06-S.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 7,
+   "name": "s00",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "07-s00.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 8,
+   "name": "s01",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "08-s01.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9eeb1dbefaeaea001e010b18dfdda6a9e8793a54b9fc53f66363f2779c58dd1",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 9,
+   "name": "s02",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "09-s02.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 10,
+   "name": "s03",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "10-s03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 11,
+   "name": "s04",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "11-s04.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 12,
+   "name": "s05",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "12-s05.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 13,
+   "name": "s06",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "13-s06.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  },
+  {
+   "step": 14,
+   "name": "s07",
+   "keys": "",
+   "ref": "CM-09",
+   "file": "14-s07.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "70554a819d08082377009c83c6453e26fe22c1f85491341bbc9d93810a4c06d8",
+   "mismatch_pixels": 1336,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "e626b4e67da4843a879ea90a3eb9b97cf4316fa7c098789ce80cf9bd21eaa788"
+  }
+ ]
+}

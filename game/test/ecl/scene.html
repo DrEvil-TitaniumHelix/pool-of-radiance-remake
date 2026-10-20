@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ECL Scene</title>
+<style>html,body{margin:0;background:#000}canvas{image-rendering:pixelated;width:640px;height:400px}</style>
+</head>
+<body>
+<canvas id="screen" width="320" height="200"></canvas>
+<script type="module">
+// por-build-ecl scene (?screen=ECL-02-TEXT): the shipped save resumed in the VM; the DOSBox key script Down, Up is typed
+// into the engine key buffer (one key per wait); the real ExploreCommand/MoveParty (VIEW ov14) and ecl_GameLoop run:
+// block 20 vector A (step + NEW_ECL 0, data set 3), ecl_RunAfterNewBlock (block 0 E/A/B) -> "YOU ARE BY THE GATEWAY ...".
+// The scene stops at the next command prompt. Characters: TODO PARTY LoadGame (one placeholder member).
+import { Display } from '../../engine/display.js';
+import { state as pic } from '../../engine/pictures.js';
+import { InitGameState } from '../../areas/startup.js';
+import { text } from '../../engine/text.js';
+import { fetchFile } from '../../engine/dax.js';
+import { dev } from '../../engine/dev.js';
+import { G, initState } from '../../engine/state.js';
+import { newChar } from '../../engine/ecl.js';
+import { bindEclHost, eclHost, eclG, resumeSaveIntoVM, EclGameLoop } from '../../areas/ecl_host.js';
+window.E = { pic, G };
+(async () => {
+  pic.display = new Display(document.getElementById('screen'));
+  await initState();                                                 // DS image + names (state.js)
+  await InitGameState();                                             // 5700:002D view picture, symbol sets 0/4, font
+  try { await (await import('../../areas/res_00ba.js')).initRes00ba(); } catch (e) { console.warn('res00ba', e); }
+  await bindEclHost();
+  const c = newChar(); c.b[0x10D] = 1; eclG.PartyHead = eclG.SelectedChar = c;   // TODO: PARTY LoadGame (characters)
+  resumeSaveIntoVM(await fetchFile('SAVE/SAVGAMA.DAT'));
+  const I = await import('../../engine/input.js');
+  I.script.keys = [[0, 0x50], [0, 0x48]];
+  const real = eclHost.exploreCommand;
+  let n = 0;
+  eclHost.exploreCommand = async () => { if (n++ === 0) return real(); await dev.screen('ECL-02-TEXT'); return 0; };
+  await EclGameLoop();
+})().catch((e) => { console.error(e); });
+</script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+{
+ "run": "GBP-HELPERS-1",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "helpers-toggles",
+   "keys": "",
+   "ref": "",
+   "file": "05-helpers-toggles.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "encamp",
+   "keys": "E",
+   "ref": "",
+   "file": "06-encamp.png",
+   "sha256": "aa828bfa511601601a8b3b1722c7e1c597f01e8cee323065deb97fe0ebd51c4f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "select-alys",
+   "keys": "{End}{End}",
+   "ref": "",
+   "file": "07-select-alys.png",
+   "sha256": "fcb604369838b8e7497526d59b1d5c210248a01a7e43b8d2c161593ae1496830",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "magic",
+   "keys": "M",
+   "ref": "",
+   "file": "08-magic.png",
+   "sha256": "384dbb4c5708e59110dfe1f6deb0e8c02c6af22a5d30f52206a0a3fe45f3a7ee",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "cast-list",
+   "keys": "C",
+   "ref": "",
+   "file": "09-cast-list.png",
+   "sha256": "36636d645fcf6e9df656acd69241ecf24d719fbd3067e12ecb4ac6a4cb22f1ae",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "highlight-clw",
+   "keys": "{End}{End}",
+   "ref": "",
+   "file": "10-highlight-clw.png",
+   "sha256": "c8bb03774632ba0821f00c8ce1ff09105ff038453909aeae298b39fc5e3b6418",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "cast-clw",
+   "keys": "C",
+   "ref": "",
+   "file": "11-cast-clw.png",
+   "sha256": "537376f7f58e1939275ae643d2ee2f67c55ac811f18a51ea8fe2d4178e8bc149",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "on-whom",
+   "keys": "S",
+   "ref": "",
+   "file": "12-on-whom.png",
+   "sha256": "2deac6bad8bf7ed7fdf2ad145410003e0239fecf70107bd5b95ba7c2c2d13d65",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "cast-list-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "13-cast-list-exit.png",
+   "sha256": "7c02cff2934899401507dd1e6b0643353eaf71eb06a726bc2ef3ddb54c714a18",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 14,
+   "name": "preset-apply",
+   "keys": "",
+   "ref": "",
+   "file": "14-preset-apply.png",
+   "sha256": "8d153b80a5c3c184b5a36345506ac7e97d3339369638490016c4ce46df68b40d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 15,
+   "name": "magic-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "15-magic-exit.png",
+   "sha256": "3440fb277153ebdfb7358218817255ee638fe7277921b848e101537e611fe865",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 16,
+   "name": "camp-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "16-camp-exit.png",
+   "sha256": "0eeccb57e8c7961aeaf6261cb1b3ddcedb70fe3d971fce80ee2e0605383efe7d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 17,
+   "name": "walk-until-encounter",
+   "keys": "{Up}{Up}{Right}{Up}{Left}",
+   "ref": "",
+   "file": "17-walk-until-encounter.png",
+   "sha256": "f7319f39ae1db00e0fbbb00c37a783044ce02c1b7f63996c6c76a56fd3eb9c3d",
+   "ready": true,
+   "reps": 6,
+   "errors": []
+  },
+  {
+   "step": 18,
+   "name": "combat-choice",
+   "keys": "C",
+   "ref": "",
+   "file": "18-combat-choice.png",
+   "sha256": "1f8ad1353d681b5d5ee559bc504022ad9055986bfd9c4984b1645968fe6f41d8",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 19,
+   "name": "quick-until-done",
+   "keys": "Q",
+   "ref": "",
+   "file": "19-quick-until-done.png",
+   "sha256": "e78781b2a82b6f93df386ba87e505c2afd4ce51fa83c72068d5641af989c288e",
+   "ready": true,
+   "reps": 60,
+   "errors": []
+  },
+  {
+   "step": 20,
+   "name": "after-combat",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "20-after-combat.png",
+   "sha256": "e78781b2a82b6f93df386ba87e505c2afd4ce51fa83c72068d5641af989c288e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 21,
+   "name": "treasure-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "21-treasure-exit.png",
+   "sha256": "e78781b2a82b6f93df386ba87e505c2afd4ce51fa83c72068d5641af989c288e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 22,
+   "name": "leave-treasure-no",
+   "keys": "N",
+   "ref": "",
+   "file": "22-leave-treasure-no.png",
+   "sha256": "93175a9199302976c97f834a47091f2196d29445230fc8f62ef14ff7b8bca5b6",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 23,
+   "name": "xp-continue",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "23-xp-continue.png",
+   "sha256": "9f688f2054fb50fe1efd30f604822f357c7cbd9ba4f5fe997dee72124bdb4f4c",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

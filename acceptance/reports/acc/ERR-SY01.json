@@ -1,0 +1,28 @@
+{
+ "run": "ERR-SY01",
+ "source": "back-filled from acceptance/out/acc/ERR-SY01",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "SY-01",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-SY-01.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e42e3c2146744ee7832989dc5b3733e3549703085390118ffb4b369542acddce"
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+# personal_gate.py allow-list: game text that matches a pattern (path:regex, one per line, path * = any file)
+# "Attack Ally: " is the original combat prompt (6100:29c5, AskYesNo), quoted in code and decode notes; it is game text
+*:Attack Ally

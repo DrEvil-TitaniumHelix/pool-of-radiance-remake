@@ -1,0 +1,292 @@
+{
+ "run": "MG3",
+ "source": "back-filled from acceptance/out/acc/MG3",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "camp",
+   "keys": "E",
+   "ref": "",
+   "file": "05-camp.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "aa828bfa511601601a8b3b1722c7e1c597f01e8cee323065deb97fe0ebd51c4f"
+  },
+  {
+   "step": 6,
+   "name": "CM-14",
+   "keys": "A",
+   "ref": "",
+   "file": "06-CM-14.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "21be4622cc22ee172440c5ca59624f474400a033df7e717b0dec768db5c177a9"
+  },
+  {
+   "step": 7,
+   "name": "CM-13-order",
+   "keys": "O",
+   "ref": "",
+   "file": "07-CM-13-order.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "32304af0bfd6bac1204fe702550b3d77e0526a7b0eadac41ebdc1e74ac9ed59e"
+  },
+  {
+   "step": 8,
+   "name": "order-select",
+   "keys": "S",
+   "ref": "",
+   "file": "08-order-select.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "f3c2d961fae1d590df7dc5ffe1e913a7b7b2e2f05b37612ef66801cfa604fbb8"
+  },
+  {
+   "step": 9,
+   "name": "order-place",
+   "keys": "{End}P",
+   "ref": "",
+   "file": "09-order-place.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ef8d961a7bdffc9400635a173d7a74d2578a08190c6639677133f4c870957e85"
+  },
+  {
+   "step": 10,
+   "name": "order-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "10-order-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ae4165e70f781f85bd0093f11f846af080ec68fac4aa2c3c0fb2738fee647ae0"
+  },
+  {
+   "step": 11,
+   "name": "CM-12",
+   "keys": "S",
+   "ref": "",
+   "file": "11-CM-12.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "3a5d2a6c9ac24d6629603b4fe05d57f357e96972f0d3b3eec13d5f63350212c6"
+  },
+  {
+   "step": 12,
+   "name": "speed-faster",
+   "keys": "F",
+   "ref": "",
+   "file": "12-speed-faster.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "bcc0ce1786db208107b19f1499a80c868f5c95f32192abcfb524031b1111047b"
+  },
+  {
+   "step": 13,
+   "name": "speed-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "13-speed-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5f356a1d318319556445c77fe51d164c4e2447d258801746129f17fb3bfd014c"
+  },
+  {
+   "step": 14,
+   "name": "CM-13-drop",
+   "keys": "D",
+   "ref": "",
+   "file": "14-CM-13-drop.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "02af5505a67471d6dfb1961ae04268da3ef125d79c5e5b6c5096606ff3950c68"
+  },
+  {
+   "step": 15,
+   "name": "drop-no",
+   "keys": "N",
+   "ref": "",
+   "file": "15-drop-no.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ae4165e70f781f85bd0093f11f846af080ec68fac4aa2c3c0fb2738fee647ae0"
+  },
+  {
+   "step": 16,
+   "name": "pics",
+   "keys": "P",
+   "ref": "",
+   "file": "16-pics.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0e968c43b4b4413335f117b2fce0848ffc661dadf5dc639248dec61631ba15a1"
+  },
+  {
+   "step": 17,
+   "name": "pics-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "17-pics-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5f1afc13abba629b5ba89ab8f7e0b29c71d8be362fe8d39bf7cf17cde8ef9b6a"
+  },
+  {
+   "step": 18,
+   "name": "alter-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "18-alter-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "bc19e6d72d17efa7391772f9b544cd3a1b07e562863cfe4e066218c2e14a90d7"
+  },
+  {
+   "step": 19,
+   "name": "sel-morgana",
+   "keys": "{End}{End}{End}",
+   "ref": "",
+   "file": "19-sel-morgana.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5a9700b16e7b4f01d90ce6d5cb0262833daf37bba9e655c327b4fef5c10812e1"
+  },
+  {
+   "step": 20,
+   "name": "magic",
+   "keys": "M",
+   "ref": "",
+   "file": "20-magic.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "d006a59da9ca0f906ea67088f7a2654415ae5819f00a786ddd3e530304ffc69e"
+  },
+  {
+   "step": 21,
+   "name": "CM-07",
+   "keys": "M",
+   "ref": "",
+   "file": "21-CM-07.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "f89b1cdd3dd9d856c67ab72a326311252fee62cbb179392055bd1effe2ab2c3f"
+  },
+  {
+   "step": 22,
+   "name": "mem-sel",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "22-mem-sel.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4b06550e006bc9368c924d12869ab2cefc27daf6fa684f03ce4cd7aed749b6d5"
+  },
+  {
+   "step": 23,
+   "name": "mem-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "23-mem-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5a9700b16e7b4f01d90ce6d5cb0262833daf37bba9e655c327b4fef5c10812e1"
+  },
+  {
+   "step": 24,
+   "name": "CM-09",
+   "keys": "S",
+   "ref": "",
+   "file": "24-CM-09.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5f52c9ced863844756b610f1fbd16f4c7a9e9d3ce75b2bbe7e32de1dc41d5bc4"
+  },
+  {
+   "step": 25,
+   "name": "scribe-idle",
+   "keys": "",
+   "ref": "",
+   "file": "25-scribe-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "561184c4e73e25f636d8e5b74cde4ddfda6677ea1639b33c80de76006bdb17b3"
+  },
+  {
+   "step": 26,
+   "name": "magic-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "26-magic-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ef84fc25d890162b40f172f10a687c5e0b0e7881c576ce338bb97db0f3ed121b"
+  }
+ ]
+}

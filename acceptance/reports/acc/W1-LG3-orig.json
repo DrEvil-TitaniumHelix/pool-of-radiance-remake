@@ -1,0 +1,116 @@
+{
+ "run": "W1-LG3-orig",
+ "query": "sting=1&fast=4&plus=0",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "pre-look",
+   "keys": "LAAAEMC{End}C{Esc}EE",
+   "ref": "",
+   "file": "02-pre-look.png",
+   "sha256": "4165c2924baae6c1ce26c98478080ec0b422679566c6cd71fb0fa261fa2e2059",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "ECL-04",
+   "keys": "L",
+   "ref": "ECL-04",
+   "file": "03-ECL-04.png",
+   "sha256": "613e8f3ea6856a01c5e65072db9308e411c73d428188b7fa2764f4db980f5920",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "after-S",
+   "keys": "S",
+   "ref": "ECL-10",
+   "file": "04-after-S.png",
+   "sha256": "613e8f3ea6856a01c5e65072db9308e411c73d428188b7fa2764f4db980f5920",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "ECL-09-NEAR",
+   "keys": "A",
+   "ref": "ECL-09-NEAR",
+   "file": "05-ECL-09-NEAR.png",
+   "sha256": "9f7c4f331d3971d233aa6bec8ec6512e9b5621a8d794a831aa7ee9871ff0405f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "ECL-08",
+   "keys": "A",
+   "ref": "ECL-08",
+   "file": "06-ECL-08.png",
+   "sha256": "9f7c4f331d3971d233aa6bec8ec6512e9b5621a8d794a831aa7ee9871ff0405f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "ECL-11",
+   "keys": "P",
+   "ref": "ECL-11",
+   "file": "07-ECL-11.png",
+   "sha256": "8824d2218b044153cb17c34268bc127df264f859feb67bb101aeb0b20d8d0277",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "ECL-05",
+   "keys": "N",
+   "ref": "ECL-05",
+   "file": "08-ECL-05.png",
+   "sha256": "7129b188d1ee963d5378291f78c1baa3caf50dc4aca3779651ad2c7609299f9b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "VIEW-06",
+   "keys": "{Enter}",
+   "ref": "VIEW-06",
+   "file": "09-VIEW-06.png",
+   "sha256": "48dca6cd969d1bf445d8eb6fed27a6a6f2c62a51352bfb0a3c9a5b956cde34f3",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "ENGINE-35",
+   "keys": "Q",
+   "ref": "ENGINE-35",
+   "file": "10-ENGINE-35.png",
+   "sha256": "cb02fb09ac1d1f66e65196e0919d08668d43e277a851a5c290d3c8bd6fb0ff7f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

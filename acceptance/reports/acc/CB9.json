@@ -1,0 +1,226 @@
+{
+ "run": "CB9",
+ "source": "back-filled from acceptance/out/acc/CB9",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "walk-until-encounter",
+   "keys": "{Up}{Up}{Right}{Up}{Left}",
+   "ref": "",
+   "file": "05-walk-until-encounter.png",
+   "ready": true,
+   "reps": 7,
+   "errors": [],
+   "sha256": "79f11394c2e8914802583b7802a5d4e025a16334c0ffa9873015803be8090272"
+  },
+  {
+   "step": 6,
+   "name": "combat-choice",
+   "keys": "C",
+   "ref": "",
+   "file": "06-combat-choice.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5b2589541de51284aeaaea25ffc418aab373f39025a61496021e0339be135228"
+  },
+  {
+   "step": 7,
+   "name": "to-MORGANA",
+   "keys": "",
+   "ref": "",
+   "file": "07-to-MORGANA.png",
+   "ready": true,
+   "reps": 6,
+   "errors": [],
+   "sha256": "b786d3dde777f7f515b058ad48f15e9553a1ac141069020f88048a352cf66253"
+  },
+  {
+   "step": 8,
+   "name": "cast-list",
+   "keys": "C",
+   "ref": "",
+   "file": "08-cast-list.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "818a57c96ab250bb9c5222b51e70389648c46a94de73576db198fefa6eda03a7"
+  },
+  {
+   "step": 9,
+   "name": "sel",
+   "keys": "{End}{End}{End}",
+   "ref": "",
+   "file": "09-sel.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "13fa10621610c7f672f44e426fba9b79aec9fe33511717210b80c23c4bac803a"
+  },
+  {
+   "step": 10,
+   "name": "aim",
+   "keys": "C",
+   "ref": "",
+   "file": "10-aim.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "3a9dbdccf6da594b00f5dac56a124779b493d2b02cc52543a5350503fad69fe8"
+  },
+  {
+   "step": 11,
+   "name": "CB-09",
+   "keys": "T",
+   "ref": "",
+   "file": "11-CB-09.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "53bbf44288521a9f7ae4352e06d1a1e955117ddb50c1a4db3132d602e3521573"
+  },
+  {
+   "step": 12,
+   "name": "CB-09b",
+   "keys": "",
+   "ref": "",
+   "file": "12-CB-09b.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "53bbf44288521a9f7ae4352e06d1a1e955117ddb50c1a4db3132d602e3521573"
+  },
+  {
+   "step": 13,
+   "name": "CB-09c",
+   "keys": "",
+   "ref": "",
+   "file": "13-CB-09c.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2deb51cfda9f6e5e62c312ef30731d36bddaff6a13e35bede5daa90a270aa0b2"
+  },
+  {
+   "step": 14,
+   "name": "CB-09d",
+   "keys": "",
+   "ref": "",
+   "file": "14-CB-09d.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2deb51cfda9f6e5e62c312ef30731d36bddaff6a13e35bede5daa90a270aa0b2"
+  },
+  {
+   "step": 15,
+   "name": "CB-09-m0",
+   "keys": "",
+   "ref": "",
+   "file": "15-CB-09-m0.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b2206d6625e79e4cfa7db2734ae8ac9879737bb01df38a7154ee6ee7e9f412dd"
+  },
+  {
+   "step": 16,
+   "name": "CB-09-m1",
+   "keys": "",
+   "ref": "",
+   "file": "16-CB-09-m1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b2206d6625e79e4cfa7db2734ae8ac9879737bb01df38a7154ee6ee7e9f412dd"
+  },
+  {
+   "step": 17,
+   "name": "CB-09-m2",
+   "keys": "",
+   "ref": "",
+   "file": "17-CB-09-m2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "44bc9c1e0c5ca07320b6f3b7c1dce331b318914e2417c4f232b8808e291dd455"
+  },
+  {
+   "step": 18,
+   "name": "CB-09-m3",
+   "keys": "",
+   "ref": "",
+   "file": "18-CB-09-m3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b52399d39165389139c4e73a1feb18001e9b45a386a554c37c506fb64dc10a48"
+  },
+  {
+   "step": 19,
+   "name": "CB-09-m4",
+   "keys": "",
+   "ref": "",
+   "file": "19-CB-09-m4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b00998271f921914ae37fdcb96c321eba7125be591c23b4316bcf094b53c3b25"
+  },
+  {
+   "step": 20,
+   "name": "CB-09-m5",
+   "keys": "",
+   "ref": "",
+   "file": "20-CB-09-m5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e5f619a2d35623beda509c3770fd61b65085d2a25223e7892eb84d76a3845e15"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "run": "W1-RUN-1-plus2",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "party-menu",
+   "keys": "",
+   "ref": "REF-MENU",
+   "file": "01-party-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-which",
+   "keys": "L",
+   "ref": "REF-LOAD",
+   "file": "02-load-which.png",
+   "sha256": "726a19cdf702c14f6670935fd5b28af8246f55d2abd297907b5bd306162f5973",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "phlan-view",
+   "keys": "A",
+   "ref": "ECL-03",
+   "file": "03-phlan-view.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "walk-1",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "04-walk-1.png",
+   "sha256": "6aeb93b18605de30aeb8ef05537c0aef3c61df3e5e67c0cfbd3dbde13e776de3",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "walk-3",
+   "keys": "{Up}{Up}",
+   "ref": "",
+   "file": "05-walk-3.png",
+   "sha256": "6aeb93b18605de30aeb8ef05537c0aef3c61df3e5e67c0cfbd3dbde13e776de3",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "turn",
+   "keys": "{Left}",
+   "ref": "",
+   "file": "06-turn.png",
+   "sha256": "e492730f36cf03f60aecf655b255fa3488580055222b25e3695fea4b3daa35e3",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "encamp",
+   "keys": "E",
+   "ref": "ECL-14",
+   "file": "07-encamp.png",
+   "sha256": "bae592bd99e80cd1151cf388dcccebd327c92d35b92dec97d488b6c68661f04a",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "save-which",
+   "keys": "S",
+   "ref": "",
+   "file": "08-save-which.png",
+   "sha256": "33bbec2487defc60c506e1e72ec9f5d981f5bed0c9c2bb82450b4144f9c818a5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "save-B-quit-prompt",
+   "keys": "B",
+   "ref": "VIEW-10",
+   "file": "09-save-B-quit-prompt.png",
+   "sha256": "cf614dc9dca95867baf529f70c165e68508f29978bd46a84e3c31164d0c32b40",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "quit-no",
+   "keys": "N",
+   "ref": "",
+   "file": "10-quit-no.png",
+   "sha256": "bcc294bec61b844c5f9e4223f1a6d547dbde7e31a26f0ddae9131fb7ab62fb0d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "camp-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "11-camp-exit.png",
+   "sha256": "dd690773e47881db4ad48f0b075d32c922454921341c36e453717dcd15c7be65",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "reload-menu",
+   "keys": "",
+   "ref": "REF-MENU",
+   "file": "12-reload-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "reload-load-B",
+   "keys": "LB",
+   "ref": "",
+   "file": "13-reload-load-B.png",
+   "sha256": "4785ad52d77e108c33f150d66ec440ccfe5972838a1110cf1d0e6ac5363b1801",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

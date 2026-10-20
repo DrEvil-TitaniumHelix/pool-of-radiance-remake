@@ -1,0 +1,72 @@
+{
+ "run": "GBP-CLICK-OVERLAND",
+ "query": "sting=1&seed=625&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "boot",
+   "keys": "",
+   "ref": "",
+   "file": "01-boot.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-menu",
+   "keys": "",
+   "ref": "",
+   "file": "02-load-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "03-load-C.png",
+   "sha256": "c00e6860ca814becd33e3eec46135de98eeae5f5a853bc9e3df3ef88ae7d05f9",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "list",
+   "keys": "",
+   "ref": "",
+   "file": "04-list.png",
+   "sha256": "c00e6860ca814becd33e3eec46135de98eeae5f5a853bc9e3df3ef88ae7d05f9",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "travel",
+   "keys": "",
+   "ref": "",
+   "file": "05-travel.png",
+   "sha256": "1947ae5462282ba54758a0cdb6cf1e264ee570b84770fe45d18e2197c32c6f46",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "after",
+   "keys": "",
+   "ref": "",
+   "file": "06-after.png",
+   "sha256": "1947ae5462282ba54758a0cdb6cf1e264ee570b84770fe45d18e2197c32c6f46",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

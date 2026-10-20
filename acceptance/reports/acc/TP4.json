@@ -1,0 +1,226 @@
+{
+ "run": "TP4",
+ "source": "back-filled from acceptance/out/acc/TP4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "to-shop",
+   "keys": "{Down}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Up}{Up}{Up}{Up}{Up}{Right}{Up}{Left}{Up}{Up}{Left}{Up}",
+   "ref": "",
+   "file": "05-to-shop.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "364f22b8f4eb9fb0555858891fea2a5e83e18659e559fd08837fbe50c7583d96"
+  },
+  {
+   "step": 6,
+   "name": "shop-y",
+   "keys": "Y",
+   "ref": "",
+   "file": "06-shop-y.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "36629adc02a487fd623a50c29b9a1e76242e34dfed6f7fa78de8e93d330ee8e8"
+  },
+  {
+   "step": 7,
+   "name": "pool",
+   "keys": "P",
+   "ref": "",
+   "file": "07-pool.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "aaa0c1a6c3c8a102a6aee96e6d96db463b802ee39abca0d67018b6c6ff7a8a82"
+  },
+  {
+   "step": 8,
+   "name": "take-amt",
+   "keys": "T{Enter}10",
+   "ref": "",
+   "file": "08-take-amt.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a09a33054f010689c319b9e0c587dc4a439fd70234f6e17f66d8611bd7f9030a"
+  },
+  {
+   "step": 9,
+   "name": "take-done",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "09-take-done.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "95e1d33f1288ca649eb10ab79a32f76877ad20942c1a7e7b88ef447a661f4a43"
+  },
+  {
+   "step": 10,
+   "name": "take-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "10-take-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "42107891276186219f40f82f478dc0f797e8c66b47c2c5ed56ee0f7b41b8d56d"
+  },
+  {
+   "step": 11,
+   "name": "CH-11-share",
+   "keys": "S",
+   "ref": "",
+   "file": "11-CH-11-share.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "513002b9054bcfb00d27971524ca20a1d79103f06d8143e1069c4036adb2a513"
+  },
+  {
+   "step": 12,
+   "name": "CH-10-appraise",
+   "keys": "A",
+   "ref": "",
+   "file": "12-CH-10-appraise.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a5bc1758eceeb07b22a6f1f48c413f81e43b14ea1a0bf4e5ce116c3bb6927a61"
+  },
+  {
+   "step": 13,
+   "name": "appraise-idle",
+   "keys": "",
+   "ref": "",
+   "file": "13-appraise-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a5bc1758eceeb07b22a6f1f48c413f81e43b14ea1a0bf4e5ce116c3bb6927a61"
+  },
+  {
+   "step": 14,
+   "name": "view-items",
+   "keys": "VI",
+   "ref": "",
+   "file": "14-view-items.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "06b7d4ae266e27c15dc776f44b94e03aafec44245b92df33702a1379db07029f"
+  },
+  {
+   "step": 15,
+   "name": "CH-04-sell",
+   "keys": "S",
+   "ref": "",
+   "file": "15-CH-04-sell.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "06b7d4ae266e27c15dc776f44b94e03aafec44245b92df33702a1379db07029f"
+  },
+  {
+   "step": 16,
+   "name": "sell-no",
+   "keys": "N",
+   "ref": "",
+   "file": "16-sell-no.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "06b7d4ae266e27c15dc776f44b94e03aafec44245b92df33702a1379db07029f"
+  },
+  {
+   "step": 17,
+   "name": "items-exit",
+   "keys": "EE",
+   "ref": "",
+   "file": "17-items-exit.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a5bc1758eceeb07b22a6f1f48c413f81e43b14ea1a0bf4e5ce116c3bb6927a61"
+  },
+  {
+   "step": 18,
+   "name": "pool2",
+   "keys": "P",
+   "ref": "",
+   "file": "18-pool2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "aaa0c1a6c3c8a102a6aee96e6d96db463b802ee39abca0d67018b6c6ff7a8a82"
+  },
+  {
+   "step": 19,
+   "name": "EV-13c",
+   "keys": "E",
+   "ref": "",
+   "file": "19-EV-13c.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "60c669f867886b2ddb67c9de0eda4ad7770da155d7dc63b3dfe9a4ceb566cd7a"
+  },
+  {
+   "step": 20,
+   "name": "leave-2",
+   "keys": "Y",
+   "ref": "",
+   "file": "20-leave-2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "42107891276186219f40f82f478dc0f797e8c66b47c2c5ed56ee0f7b41b8d56d"
+  }
+ ]
+}

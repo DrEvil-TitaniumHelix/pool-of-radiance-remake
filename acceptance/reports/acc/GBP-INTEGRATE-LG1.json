@@ -1,0 +1,87 @@
+{
+  "run": "GBP-INTEGRATE-LG1",
+  "query": "sting=1&fast=4&profile=por&plus=0",
+  "steps": [
+    {
+      "step": 1,
+      "name": "REF-MENU",
+      "keys": "",
+      "ref": "REF-MENU",
+      "file": "01-REF-MENU.png",
+      "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+      "ready": true,
+      "reps": 1,
+      "errors": [],
+      "mismatch_pixels": 0
+    },
+    {
+      "step": 2,
+      "name": "VIEW-01",
+      "keys": "LA",
+      "ref": "VIEW-01",
+      "file": "02-VIEW-01.png",
+      "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+      "ready": true,
+      "reps": 1,
+      "errors": [],
+      "mismatch_pixels": 0
+    },
+    {
+      "step": 3,
+      "name": "VIEW-02",
+      "keys": "A",
+      "ref": "VIEW-02",
+      "file": "03-VIEW-02.png",
+      "sha256": "812dfd53130f02855b9f86e5d8eb7cf39f56291b2f1eb3b48899479e8738f451",
+      "ready": true,
+      "reps": 1,
+      "errors": [],
+      "mismatch_pixels": 0
+    },
+    {
+      "step": 4,
+      "name": "ECL-14",
+      "keys": "AE",
+      "ref": "",
+      "file": "04-ECL-14.png",
+      "sha256": "d4947ee06f3c0b0fbaee1ea4f867547bf400ea5874319b3dd96cfa47198d7620",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 5,
+      "name": "ECL-15",
+      "keys": "M",
+      "ref": "",
+      "file": "05-ECL-15.png",
+      "sha256": "8955334b5a24c527a74697ff9369dfdcea1491fed83ad06275fafe2c833cd1e5",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 6,
+      "name": "REF-CHECK-CAST",
+      "keys": "C",
+      "ref": "",
+      "file": "06-REF-CHECK-CAST.png",
+      "sha256": "be05fc60af894129640f18a2711e8c1147c80a8111dd07c317d5384ddd531c72",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 7,
+      "name": "VIEW-09",
+      "keys": "{End}C",
+      "ref": "VIEW-09",
+      "file": "07-VIEW-09.png",
+      "sha256": "148cc37e91484a7c1c8da60958b3ca63bb421daee16b523f2a8adb61f34ed386",
+      "ready": true,
+      "reps": 1,
+      "errors": [],
+      "mismatch_pixels": 0
+    }
+  ]
+}

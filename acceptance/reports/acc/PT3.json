@@ -1,0 +1,149 @@
+{
+ "run": "PT3",
+ "source": "back-filled from acceptance/out/acc/PT3",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "PM-10",
+   "keys": "M",
+   "ref": "",
+   "file": "03-PM-10.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4d2c65fc25eb4483e98613026c4efc5076cfe2c2f4ee78138d708cf366536d6e"
+  },
+  {
+   "step": 4,
+   "name": "PM-10-idle",
+   "keys": "J",
+   "ref": "",
+   "file": "04-PM-10-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1c9117efc1acff2206ce1f4f558f71cd8d06ed4677ebe5c293226831570dfec2"
+  },
+  {
+   "step": 5,
+   "name": "train-yes",
+   "keys": "TY",
+   "ref": "",
+   "file": "05-train-yes.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "fafc22464c4e6810ae6d2cc4ed3944890bb801e0d77d612db7a27d8da595b145"
+  },
+  {
+   "step": 6,
+   "name": "train-idle",
+   "keys": "",
+   "ref": "",
+   "file": "06-train-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "91f7d81f554de211b68401601af318aa73a7b4d7331878bab665d04650f2119a"
+  },
+  {
+   "step": 7,
+   "name": "sel-morgana",
+   "keys": "{End}{End}{End}",
+   "ref": "",
+   "file": "07-sel-morgana.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5526e999a75f97da6b2908934ebc41decf94470d251d26c88374273375e3f462"
+  },
+  {
+   "step": 8,
+   "name": "train-mu",
+   "keys": "TY",
+   "ref": "",
+   "file": "08-train-mu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e39adfd0e5ff098bf4c2fc22a78b2d2431fda805424bec59c83e2aebbf843e6b"
+  },
+  {
+   "step": 9,
+   "name": "CM-08-next",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "09-CM-08-next.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "350fe7d4cde386531b2928f402dc64a6f3093886aaec58959791c5a0211eeaa8"
+  },
+  {
+   "step": 10,
+   "name": "after-learn",
+   "keys": "",
+   "ref": "",
+   "file": "10-after-learn.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "350fe7d4cde386531b2928f402dc64a6f3093886aaec58959791c5a0211eeaa8"
+  },
+  {
+   "step": 11,
+   "name": "PM-09-sure",
+   "keys": "DY",
+   "ref": "",
+   "file": "11-PM-09-sure.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "fa846ffdfb50cb91185c21c0b04d22addcf2d0fb6811b4e4398892c1ac098693"
+  },
+  {
+   "step": 12,
+   "name": "PM-09-gone",
+   "keys": "Y",
+   "ref": "",
+   "file": "12-PM-09-gone.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "72737aeb5a02ceb46dfebb78c517223435c81cbc0f8c5ec655c5fe2a3074a797"
+  },
+  {
+   "step": 13,
+   "name": "PM-09-idle",
+   "keys": "",
+   "ref": "",
+   "file": "13-PM-09-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e8acc36ac72fb0f8c33b8406713d2c38644a4e53663013ac594f7c69d6d7476e"
+  }
+ ]
+}

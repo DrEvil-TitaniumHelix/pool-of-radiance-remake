@@ -1,0 +1,140 @@
+{
+ "run": "MG1",
+ "source": "back-filled from acceptance/out/acc/MG1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "camp",
+   "keys": "LAAAE",
+   "ref": "",
+   "file": "02-camp.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "965a248ff30cdf0348bc452c2266231e4a13f14da826bc5e9ea1470b20cd0c36"
+  },
+  {
+   "step": 3,
+   "name": "magic",
+   "keys": "M",
+   "ref": "",
+   "file": "03-magic.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8955334b5a24c527a74697ff9369dfdcea1491fed83ad06275fafe2c833cd1e5"
+  },
+  {
+   "step": 4,
+   "name": "REF-CHECK-CAST",
+   "keys": "C",
+   "ref": "REF-CHECK-CAST",
+   "file": "04-REF-CHECK-CAST.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "31d2132560a7a72ea33dc25607f57ed8edc2f01d1fc0515d2c69f6f668aabd6c",
+   "mismatch_pixels": 964,
+   "bbox": [
+    25,
+    27,
+    191,
+    158
+   ],
+   "ref_sha256": "926629a284d9d3e6c2ced3682cfa14494c74cdf5e29ed7624a46f83aa283f3fa"
+  },
+  {
+   "step": 5,
+   "name": "cast-idle",
+   "keys": "",
+   "ref": "",
+   "file": "05-cast-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "be05fc60af894129640f18a2711e8c1147c80a8111dd07c317d5384ddd531c72"
+  },
+  {
+   "step": 6,
+   "name": "reload",
+   "keys": "",
+   "ref": "",
+   "file": "06-reload.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 7,
+   "name": "prefix",
+   "keys": "LASS{Down}{Up}VI{Esc}E{Left}{Up}{Up}{Up}{Up}{Right}{Up}{Right}{Up}YHEEERYIRGES{Esc}X{Enter}NE{Down}{Up}{Left}{Up}{Left}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}{Right}{Down}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Right}{Up}Y{End}{Home}SM{End}C",
+   "ref": "",
+   "file": "07-prefix.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "148cc37e91484a7c1c8da60958b3ca63bb421daee16b523f2a8adb61f34ed386"
+  },
+  {
+   "step": 8,
+   "name": "REF-CHECK-HEAL",
+   "keys": "{Home}{Home}C",
+   "ref": "REF-CHECK-HEAL",
+   "file": "08-REF-CHECK-HEAL.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6537f531a224e2de89d5a8286e7104bf5656d42870a1c34a5081b53a084ee8ae",
+   "mismatch_pixels": 676,
+   "bbox": [
+    25,
+    27,
+    111,
+    111
+   ],
+   "ref_sha256": "5b8b486fa801bb2246acbd073377b60ea0d7cec12f41cfed00c158da667b07ce"
+  },
+  {
+   "step": 9,
+   "name": "ENGINE-40",
+   "keys": "S",
+   "ref": "ENGINE-40",
+   "file": "09-ENGINE-40.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1af1fb15afb4460965554e294e67f688e78e9d0d2213e7b25115b02cf6abcfa4",
+   "mismatch_pixels": 676,
+   "bbox": [
+    25,
+    27,
+    111,
+    111
+   ],
+   "ref_sha256": "5965c15ccdb7ff4527f591e652b0335fde59b707e3f944e83165944c8743b12c"
+  },
+  {
+   "step": 10,
+   "name": "heal-idle",
+   "keys": "",
+   "ref": "",
+   "file": "10-heal-idle.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0a48651bc1e2bc8e5f00b37cda5fee78bf5f7dd938932c3cb8293107aa717446"
+  }
+ ]
+}

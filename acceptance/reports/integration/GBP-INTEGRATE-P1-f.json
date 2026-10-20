@@ -1,0 +1,127 @@
+{
+ "run": "GBP-INTEGRATE-P1-f",
+ "query": "testparty=1&sting=1&seed=7&fast=4&profile=por&plus=0",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "walk-until-encounter",
+   "keys": "{Up}{Up}{Right}{Up}{Left}",
+   "ref": "",
+   "file": "05-walk-until-encounter.png",
+   "sha256": "37fef01caced9396a605636414eaca47ee056717e30b694a43ab262cc72ffa3a",
+   "ready": true,
+   "reps": 7,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "combat-choice",
+   "keys": "C",
+   "ref": "",
+   "file": "06-combat-choice.png",
+   "sha256": "5b2589541de51284aeaaea25ffc418aab373f39025a61496021e0339be135228",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "quick-until-done",
+   "keys": "Q",
+   "ref": "",
+   "file": "07-quick-until-done.png",
+   "sha256": "6dbc4cba41c3982cff69c4fffe47b8d395235f0f4cbb0d7e4b6dd3e2329713a5",
+   "ready": true,
+   "reps": 60,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "after-combat",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "08-after-combat.png",
+   "sha256": "6dbc4cba41c3982cff69c4fffe47b8d395235f0f4cbb0d7e4b6dd3e2329713a5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "treasure-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "09-treasure-exit.png",
+   "sha256": "6dbc4cba41c3982cff69c4fffe47b8d395235f0f4cbb0d7e4b6dd3e2329713a5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "leave-treasure-no",
+   "keys": "N",
+   "ref": "",
+   "file": "10-leave-treasure-no.png",
+   "sha256": "ebf4c710ee0f8afbb3dd2db4c283d9ef3b5cb7df06fe438b1c7d2fdf0ff0f3c7",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "explore-walk",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "11-explore-walk.png",
+   "sha256": "9bf09bd30bf6d52929141116c9c3a9547e5780d142344550d6a4a632bfb00d39",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

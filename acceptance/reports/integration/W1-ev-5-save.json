@@ -1,0 +1,193 @@
+{
+ "run": "W1-ev-5-save",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4&hooklog=1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "walk",
+   "keys": "{Right}{Right}{Up}{Up}",
+   "ref": "",
+   "file": "05-walk.png",
+   "sha256": "1ac773d9e842d38ba509505f2ee34326843aad8e382e9b5e71f6ce80b5059b69",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "encamp",
+   "keys": "E",
+   "ref": "",
+   "file": "06-encamp.png",
+   "sha256": "a5b2c5bc5cba8f4740c0790c7dcad32140ca8e37bab1ca87f5f970e68d3227aa",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "save-which",
+   "keys": "S",
+   "ref": "",
+   "file": "07-save-which.png",
+   "sha256": "aace383cf6ebb88862d870cca427f701c0b221326505d3556675d706c0d157e0",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "save-D-quit-prompt",
+   "keys": "D",
+   "ref": "",
+   "file": "08-save-D-quit-prompt.png",
+   "sha256": "2f3a75819f94b10f471d411f2394fba1a1e9200b1b57b5ad4f25cfe787b68c25",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "quit-no",
+   "keys": "N",
+   "ref": "",
+   "file": "09-quit-no.png",
+   "sha256": "85c2b541c921db59164eb8d4af02f5d2fba6ad410a7c230bbc24a03987724717",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "camp-exit",
+   "keys": "E",
+   "ref": "",
+   "file": "10-camp-exit.png",
+   "sha256": "802ef6686ecdbf21ae508e9a98f3407232e7560458d7fa2972973616cabb9368",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "hooklog-dump",
+   "keys": "",
+   "ref": "",
+   "file": "11-hooklog-dump.png",
+   "sha256": "802ef6686ecdbf21ae508e9a98f3407232e7560458d7fa2972973616cabb9368",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "reload-menu",
+   "keys": "",
+   "ref": "",
+   "file": "12-reload-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "load-which",
+   "keys": "L",
+   "ref": "",
+   "file": "13-load-which.png",
+   "sha256": "b4d8d5a39f68b9a6e8954881ac8704cc14d9d6e5e47b302422f35c8286ded6b6",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 14,
+   "name": "load-D",
+   "keys": "D",
+   "ref": "",
+   "file": "14-load-D.png",
+   "sha256": "8d50ebf6faaa067defb2359c65eb08f7073b08fed9a330477108b8f277cb9cb5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 15,
+   "name": "begin-after-load",
+   "keys": "B",
+   "ref": "",
+   "file": "15-begin-after-load.png",
+   "sha256": "8d50ebf6faaa067defb2359c65eb08f7073b08fed9a330477108b8f277cb9cb5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 16,
+   "name": "view-char",
+   "keys": "V",
+   "ref": "",
+   "file": "16-view-char.png",
+   "sha256": "a65a70821e0b2db8507d799fca548e4591f94aae137210b314d4a6275140a257",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 17,
+   "name": "hooklog-dump",
+   "keys": "",
+   "ref": "",
+   "file": "17-hooklog-dump.png",
+   "sha256": "a65a70821e0b2db8507d799fca548e4591f94aae137210b314d4a6275140a257",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

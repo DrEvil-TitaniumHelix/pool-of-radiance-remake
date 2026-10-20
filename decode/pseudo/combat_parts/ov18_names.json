@@ -1,0 +1,10 @@
+{
+  "7A00:0006": "PlayFinaleAnimation",
+  "7A00:02A4": "DragonFinale",
+  "7A00:06B3": "RecolourOverlandTiles",
+  "0C7C:470E": "FinalePic",
+  "0C7C:4712": "SavedMode",
+  "0C7C:4713": "DataSetStr",
+  "0C7C:0900": "TileListA",
+  "0C7C:090B": "TileListB"
+}

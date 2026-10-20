@@ -1,0 +1,160 @@
+{
+ "run": "GBP-CLICK-INPUT",
+ "query": "profile=por&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "PM-03",
+   "keys": "C",
+   "ref": "",
+   "file": "02-PM-03.png",
+   "sha256": "1e58a908280eff6b7cace8c29232c87bc0cc09e9056242a5629f2b286f3dc417",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "PM-03-GENDER",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "03-PM-03-GENDER.png",
+   "sha256": "f4f3a42e51b167d004f33e476e59703f5cff790c4225fe9f875acec9915bc925",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "PM-03-CLASS",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "04-PM-03-CLASS.png",
+   "sha256": "7033a08169b6b5b3ee517a46f118ecf8961d207224032e5ba0f3ea97387d40cc",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "PM-03-ALIGN",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "05-PM-03-ALIGN.png",
+   "sha256": "4a7a6b6e894914223aac6ee15bec45485a5215636e97fac98a61be5f49e99591",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "PM-04",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "06-PM-04.png",
+   "sha256": "b8c1db26f06907b1a99f26319346c43fbf571242ca7a2d486d378a94796a1490",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "name-prompt",
+   "keys": "Y",
+   "ref": "",
+   "file": "07-name-prompt.png",
+   "sha256": "2e87526857f8e53241f73bc360ad639b9e74b26a369922b6a8f266e80b47cedd",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "left-click-focus",
+   "keys": "",
+   "ref": "",
+   "file": "08-left-click-focus.png",
+   "sha256": "2e87526857f8e53241f73bc360ad639b9e74b26a369922b6a8f266e80b47cedd",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "type-in-field",
+   "keys": "",
+   "ref": "",
+   "file": "09-type-in-field.png",
+   "sha256": "a6156f9757a4d0c1da0ee4c24cc4757364cb6d8f4075cc72ab8c9d06903c266d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "list-backspace",
+   "keys": "",
+   "ref": "",
+   "file": "10-list-backspace.png",
+   "sha256": "c13ff722d32c1a884cfca08a6c03f3200d0430e789a9741f7f17243103ec0bea",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "list-clear",
+   "keys": "",
+   "ref": "",
+   "file": "11-list-clear.png",
+   "sha256": "2e87526857f8e53241f73bc360ad639b9e74b26a369922b6a8f266e80b47cedd",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "retype",
+   "keys": "",
+   "ref": "",
+   "file": "12-retype.png",
+   "sha256": "3ee071ee19947bde670fca79288b5a2ef87591aabdb2317cc3450beeba3d070f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "list-enter",
+   "keys": "",
+   "ref": "",
+   "file": "13-list-enter.png",
+   "sha256": "428ffa83d12dca3e80654557f7bb9061c7da2a735022dd525eb720dea72d934a",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 14,
+   "name": "after-name",
+   "keys": "",
+   "ref": "",
+   "file": "14-after-name.png",
+   "sha256": "428ffa83d12dca3e80654557f7bb9061c7da2a735022dd525eb720dea72d934a",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

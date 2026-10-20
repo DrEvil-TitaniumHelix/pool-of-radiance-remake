@@ -1,0 +1,105 @@
+{
+ "run": "TP1",
+ "source": "back-filled from acceptance/out/acc/TP1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "to-shop",
+   "keys": "{Down}{Up}{Up}{Up}{Up}{Up}{Up}{Up}{Right}{Up}{Left}{Up}{Up}{Up}{Up}{Up}{Right}{Up}{Up}{Up}{Up}{Up}",
+   "ref": "",
+   "file": "05-to-shop.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b79211e4524b897e4b6445834fa2cc9c69964635a037525781e038afc6088e30"
+  },
+  {
+   "step": 6,
+   "name": "shop-y",
+   "keys": "Y",
+   "ref": "",
+   "file": "06-shop-y.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b79211e4524b897e4b6445834fa2cc9c69964635a037525781e038afc6088e30"
+  },
+  {
+   "step": 7,
+   "name": "EV-13",
+   "keys": "",
+   "ref": "",
+   "file": "07-EV-13.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b79211e4524b897e4b6445834fa2cc9c69964635a037525781e038afc6088e30"
+  },
+  {
+   "step": 8,
+   "name": "EV-13a",
+   "keys": "B",
+   "ref": "",
+   "file": "08-EV-13a.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b79211e4524b897e4b6445834fa2cc9c69964635a037525781e038afc6088e30"
+  },
+  {
+   "step": 9,
+   "name": "buy-next",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "09-buy-next.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4329ee7336b4f50a3f3e4cc279a3046f6ee3d43cac73256393f3da4c8bf5c0af"
+  }
+ ]
+}
