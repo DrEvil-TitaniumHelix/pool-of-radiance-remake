@@ -1,0 +1,50 @@
+{
+ "run": "GBP-INTEGRATE",
+ "query": "profile=por&sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "boot",
+   "keys": "",
+   "ref": "",
+   "file": "01-boot.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-load.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "explore",
+   "keys": "",
+   "ref": "",
+   "file": "03-explore.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "camp",
+   "keys": "E",
+   "ref": "",
+   "file": "04-camp.png",
+   "sha256": "965a248ff30cdf0348bc452c2266231e4a13f14da826bc5e9ea1470b20cd0c36",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

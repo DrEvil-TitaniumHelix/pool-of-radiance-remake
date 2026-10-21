@@ -1,0 +1,11 @@
+{
+ "name": "GBP-HINT",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  { "name": "party-menu" },
+  {
+   "name": "hint-boot",
+   "probe": "(async () => {\n const p = window.goldBoxPlus; await p.ready; await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));\n const canvas = document.getElementById('screen'), hint = document.getElementById('por-plus-hint'), gear = document.getElementById('por-plus-menu');\n if (!hint) throw Error('no hint');\n const out = (a, b) => a.right <= b.left || a.left >= b.right || a.bottom <= b.top || a.top >= b.bottom;\n const shown = () => { const r = hint.getBoundingClientRect(); return !hint.hidden && r.width > 0 && r.height > 0 && getComputedStyle(hint).visibility !== 'hidden'; };\n const check = tag => { const c = canvas.getBoundingClientRect(), h = hint.getBoundingClientRect(); if (!shown()) throw Error(tag + ': hint not shown'); if (!out(h, c)) throw Error(tag + ': hint over the frame'); if (!gear.hidden && !out(gear.getBoundingClientRect(), c)) throw Error(tag + ': gear over the frame'); if (h.right > innerWidth || h.bottom > innerHeight || h.left < 0 || h.top < 0) throw Error(tag + ': hint off screen'); return { hint: [h.left, h.top, h.width, h.height], frame: [c.left, c.top, c.width, c.height] }; };\n const before = canvas.toDataURL(); const res = {};\n const press = key => window.dispatchEvent(new KeyboardEvent('keydown', {key, bubbles:true, cancelable:true}));\n res.plus = check('plus'); if (hint.textContent !== 'F12: Plus') throw Error('text ' + hint.textContent);\n press('F12'); if (!p.isOpen || !hint.hidden) throw Error('hint not hidden while open'); press('Escape'); if (p.isOpen) throw Error('close');\n res.closed = check('closed');\n hint.click(); if (!p.isOpen || !hint.hidden) throw Error('hint click did not open'); press('Escape');\n await p.setSetting('original', true); await new Promise(r => requestAnimationFrame(r)); res.original = check('original');\n press('F12'); if (!p.isOpen) throw Error('original mode cannot reopen'); press('Escape');\n await p.setSetting('original', false); res.back = check('back');\n if (canvas.toDataURL() !== before) throw Error('canvas changed');\n return { pass: true, ...res };\n})()"
+  }
+ ]
+}

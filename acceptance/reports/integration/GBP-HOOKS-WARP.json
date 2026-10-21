@@ -1,0 +1,149 @@
+{
+ "run": "GBP-HOOKS-WARP",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "request-warp",
+   "keys": "",
+   "ref": "",
+   "file": "05-request-warp.png",
+   "sha256": "b235dc089c2e976fd7fa46f7df1a070578c00200530ecd5b531d0f0e160c5eca",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "at-sokal",
+   "keys": "",
+   "ref": "",
+   "file": "06-at-sokal.png",
+   "sha256": "6db536b991b6903b9911fec03e926eeb9e2459e1925a6aed13ecddac63246470",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "continue",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "07-continue.png",
+   "sha256": "0957e5e21c52d880d3e0976e12e70daf414ab4dddda3a952b973a06bdd6a7d71",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "warp-in-block",
+   "keys": "",
+   "ref": "",
+   "file": "08-warp-in-block.png",
+   "sha256": "fa74356b345499d6f2d3203b22fe541b3a641fc5bbf3befce7b8e276ef5ecf23",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "at-8-13",
+   "keys": "",
+   "ref": "",
+   "file": "09-at-8-13.png",
+   "sha256": "fa74356b345499d6f2d3203b22fe541b3a641fc5bbf3befce7b8e276ef5ecf23",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "hp-edit-redraw",
+   "keys": "",
+   "ref": "",
+   "file": "10-hp-edit-redraw.png",
+   "sha256": "f5d9efc714832100b6b72e158fcd1d37b07f3d6c4499d54a82372190280d1fde",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "roster-redrawn",
+   "keys": "",
+   "ref": "",
+   "file": "11-roster-redrawn.png",
+   "sha256": "f5d9efc714832100b6b72e158fcd1d37b07f3d6c4499d54a82372190280d1fde",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "walk-on",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "12-walk-on.png",
+   "sha256": "62de24b9be2d288d4cab3047fef709a64d3713e1a3e2cb41117c3f3c85521735",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "original-refuses",
+   "keys": "",
+   "ref": "",
+   "file": "13-original-refuses.png",
+   "sha256": "62de24b9be2d288d4cab3047fef709a64d3713e1a3e2cb41117c3f3c85521735",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "name": "P1-c",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "name": "menu",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC"
+  },
+  {
+   "name": "begin",
+   "keys": "B"
+  },
+  {
+   "name": "enter3x01",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x02",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x03",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x04",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x05",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x06",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x07",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  },
+  {
+   "name": "enter3x08",
+   "keys": "{Enter}{Enter}{Enter}",
+   "ms": 40000
+  }
+ ]
+}

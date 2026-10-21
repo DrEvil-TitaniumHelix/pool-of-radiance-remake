@@ -1,0 +1,157 @@
+{
+ "run": "LG1",
+ "query": "sting=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "REF-MENU",
+   "keys": "",
+   "ref": "REF-MENU",
+   "file": "01-REF-MENU.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "e1c2f1aeb39ff433d0686a4ffb79a5541885c14b52fe75198a0bc80810e80778",
+   "mismatch_pixels": 0,
+   "bbox": null
+  },
+  {
+   "step": 2,
+   "name": "VIEW-01",
+   "keys": "LA",
+   "ref": "VIEW-01",
+   "file": "02-VIEW-01.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "3c727a17d81897ebb0621d1269d5f653ea056ef85da323a34b01131a298129f4",
+   "mismatch_pixels": 0,
+   "bbox": null
+  },
+  {
+   "step": 3,
+   "name": "VIEW-02",
+   "keys": "A",
+   "ref": "VIEW-02",
+   "file": "03-VIEW-02.png",
+   "sha256": "812dfd53130f02855b9f86e5d8eb7cf39f56291b2f1eb3b48899479e8738f451",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "7fc2d75fe44c6ae1a8f79afc9b55818b14704ef1a1d58a86bddc65ba26206e87",
+   "mismatch_pixels": 0,
+   "bbox": null
+  },
+  {
+   "step": 4,
+   "name": "ECL-14",
+   "keys": "AE",
+   "ref": "ECL-14",
+   "file": "04-ECL-14.png",
+   "sha256": "d4947ee06f3c0b0fbaee1ea4f867547bf400ea5874319b3dd96cfa47198d7620",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "dadb81bdef321e627074b125c3f314fb0280bf18bbeb569102680b4492ce5bc0",
+   "mismatch_pixels": 676,
+   "bbox": [
+    25,
+    27,
+    111,
+    111
+   ]
+  },
+  {
+   "step": 5,
+   "name": "ECL-15",
+   "keys": "M",
+   "ref": "ECL-15",
+   "file": "05-ECL-15.png",
+   "sha256": "8955334b5a24c527a74697ff9369dfdcea1491fed83ad06275fafe2c833cd1e5",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "778806939a812d197c7204c4dd257c5497c7024c29a713cb6898f897134f7f72",
+   "mismatch_pixels": 8523,
+   "bbox": [
+    0,
+    24,
+    303,
+    198
+   ]
+  },
+  {
+   "step": 6,
+   "name": "REF-CHECK-CAST",
+   "keys": "C",
+   "ref": "REF-CHECK-CAST",
+   "file": "06-REF-CHECK-CAST.png",
+   "sha256": "be05fc60af894129640f18a2711e8c1147c80a8111dd07c317d5384ddd531c72",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "926629a284d9d3e6c2ced3682cfa14494c74cdf5e29ed7624a46f83aa283f3fa",
+   "mismatch_pixels": 1633,
+   "bbox": [
+    9,
+    27,
+    191,
+    158
+   ]
+  },
+  {
+   "step": 7,
+   "name": "VIEW-09",
+   "keys": "{End}C",
+   "ref": "VIEW-09",
+   "file": "07-VIEW-09.png",
+   "sha256": "148cc37e91484a7c1c8da60958b3ca63bb421daee16b523f2a8adb61f34ed386",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "693d8dec1fa8bf517f3fe7d0d2d1437f0691cebe781791b5001d8aafaaf9a023",
+   "mismatch_pixels": 0,
+   "bbox": null
+  },
+  {
+   "step": 8,
+   "name": "VIEW-01-LOOK",
+   "keys": "{Esc}EEL",
+   "ref": "VIEW-01-LOOK",
+   "file": "08-VIEW-01-LOOK.png",
+   "sha256": "9fcdc234927d536db5fd5187de332cde67d61d47f55d422222a95b2a09daef5a",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "2aedbfcfaafac89952c631e751aea8aae1b66be963e8629e39c680cdb85c3c62",
+   "mismatch_pixels": 925,
+   "bbox": [
+    9,
+    66,
+    231,
+    143
+   ]
+  },
+  {
+   "step": 9,
+   "name": "ECL-04",
+   "keys": "S",
+   "ref": "ECL-04",
+   "file": "09-ECL-04.png",
+   "sha256": "979169d948c39859067a9726fa1f006d66045f7345172a7f4223c5204daea465",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "ref_sha256": "01ee50ad1250168bf80951a82e9f6bf10f9db077087bf8292049003cd16e7e6a",
+   "mismatch_pixels": 2272,
+   "bbox": [
+    1,
+    66,
+    287,
+    198
+   ]
+  }
+ ]
+}

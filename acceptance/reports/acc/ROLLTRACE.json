@@ -1,0 +1,61 @@
+{
+ "run": "ROLLTRACE",
+ "source": "back-filled from acceptance/out/acc/ROLLTRACE",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "race",
+   "keys": "C{Enter}{Enter}",
+   "ref": "",
+   "file": "02-race.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7033a08169b6b5b3ee517a46f118ecf8961d207224032e5ba0f3ea97387d40cc"
+  },
+  {
+   "step": 3,
+   "name": "align",
+   "keys": "",
+   "ref": "",
+   "file": "03-align.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7033a08169b6b5b3ee517a46f118ecf8961d207224032e5ba0f3ea97387d40cc"
+  },
+  {
+   "step": 4,
+   "name": "PM-04",
+   "keys": "{Enter}{Enter}",
+   "ref": "",
+   "file": "04-PM-04.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1430bfc320a006069bd4ac1d99da26f694961129e00d5c235e806e48b2191d5c"
+  },
+  {
+   "step": 5,
+   "name": "reroll",
+   "keys": "N",
+   "ref": "",
+   "file": "05-reroll.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "c9ca81fe235f2e8e8bc662f6a530afcba4fe800cca318e8c301f7c11f15e7c91"
+  }
+ ]
+}

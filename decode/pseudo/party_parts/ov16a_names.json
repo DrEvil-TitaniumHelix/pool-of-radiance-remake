@@ -1,0 +1,21 @@
+{
+  "7000:0000": "FreeCharacter",
+  "7000:0161": "PartyCreationMenu",
+  "7000:056C": "CreateCharacter",
+  "0C7C:0619": "MenuEntry",
+  "0C7C:470C": "StingMode",
+  "0C7C:557D": "GameSaved",
+  "0C7C:3E17": "RaceClasses",
+  "0C7C:3FE7": "ClassAligns",
+  "0C7C:3E5B": "StartAge",
+  "0C7C:3F31": "AgeCategory",
+  "0C7C:3DA3": "RaceAbilityLimits",
+  "0C7C:3F81": "ClassAbilityMin",
+  "0C7C:3C7C": "BaseThac0",
+  "0C7C:05D6": "ClassMaskBit",
+  "0C7C:4263": "StartGoldDice",
+  "0C7C:0F03": "RaceName",
+  "0C7C:0D38": "ClassName",
+  "0C7C:0FEC": "GenderName",
+  "0C7C:0F53": "AlignmentName"
+}

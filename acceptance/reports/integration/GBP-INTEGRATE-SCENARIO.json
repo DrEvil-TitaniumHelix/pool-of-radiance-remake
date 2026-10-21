@@ -1,0 +1,17 @@
+{
+ "run": "GBP-INTEGRATE-SCENARIO",
+ "query": "profile=por&scenario=sokal-gate&dev=1&sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "automatic-scenario-load",
+   "keys": "",
+   "ref": "",
+   "file": "01-automatic-scenario-load.png",
+   "sha256": "eae52cd2d42a9afc2a35d393a49a454723d47bb0ee942a8050322ba98e374d43",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

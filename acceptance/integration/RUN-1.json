@@ -1,0 +1,16 @@
+{ "name": "RUN-1", "query": "sting=1&seed=1&fast=4",
+  "steps": [
+    { "name": "party-menu", "keys": "", "ref": "REF-MENU" },
+    { "name": "load-which", "keys": "L", "ref": "REF-LOAD" },
+    { "name": "phlan-view", "keys": "A", "ref": "ECL-03" },
+    { "name": "walk-1", "keys": "{Up}" },
+    { "name": "walk-3", "keys": "{Up}{Up}" },
+    { "name": "turn", "keys": "{Left}" },
+    { "name": "encamp", "keys": "E", "ref": "ECL-14" },
+    { "name": "save-which", "keys": "S" },
+    { "name": "save-B-quit-prompt", "keys": "B", "ref": "VIEW-10" },
+    { "name": "quit-no", "keys": "N" },
+    { "name": "camp-exit", "keys": "E" },
+    { "name": "reload-menu", "reload": true, "ref": "REF-MENU" },
+    { "name": "reload-load-B", "keys": "LB" }
+  ] }

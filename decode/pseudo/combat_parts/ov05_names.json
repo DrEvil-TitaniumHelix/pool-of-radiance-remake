@@ -1,0 +1,19 @@
+{
+  "3900:0000": "ComputeCombatXP",
+  "3900:0355": "AwardXP",
+  "3900:04C9": "ResolveCombatOutcome",
+  "3900:0916": "ShowCombatResult",
+  "3900:0B14": "ChooseLootItem",
+  "3900:0C06": "TakeLootItems",
+  "3900:0D38": "TakeTreasureMenu",
+  "3900:0ECD": "TreasureMenu",
+  "3900:11AC": "RemoveMonstersAfterCombat",
+  "3900:12E8": "NpcTakesShare",
+  "3900:1527": "AfterCombat",
+  "0C7C:84D4": "DuelActive",
+  "0C7C:84D5": "NonSharing",
+  "0C7C:84D6": "CombatXP",
+  "0C7C:84DA": "PartyWon",
+  "0C7C:443A": "EnemiesFought",
+  "0C7C:443B": "PartyFled"
+}

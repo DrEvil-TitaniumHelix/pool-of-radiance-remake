@@ -1,0 +1,73 @@
+{
+ "run": "qyRZNd",
+ "source": "back-filled from acceptance/out/acc/qyRZNd",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "EV-13-A12-GREETING",
+   "keys": "LCB{Enter}{Enter}{Enter}E{End}{End}E{Enter}{Enter}{Enter}{Enter}{Enter}{Down}{Up}{Up}{Up}{Enter}{Up}{Left}{Up}{Up}{Up}{Right}{Up}{Up}{Up}{Left}{Up}{Up}{Up}{Up}{Up}{Right}{Up}{Up}{Right}{Up}{Up}{Left}{Up}{Right}{Up}",
+   "ref": "EV-13-A12-GREETING",
+   "file": "02-EV-13-A12-GREETING.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dcf5f5013b8123b4307a98e8a7f66e820884c770d85d216e6118e2813ac49734",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "ade1e1e1bb86aa3fb49f7bdf6fe0efcfa319cd552ed0419057be56101b571b3a"
+  },
+  {
+   "step": 3,
+   "name": "EV-13-A12-MENU",
+   "keys": "Y",
+   "ref": "EV-13-A12-MENU",
+   "file": "03-EV-13-A12-MENU.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "ef36b4b8b8b391bc7a9ea9621d60d51d09a3c385fe9fe3f57e63385c39184ef2",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "4532af23acd2912b3c8f1614ef7af88824804e24ca8ecfe919175e1b484c3e31"
+  },
+  {
+   "step": 4,
+   "name": "EV-13-A12-POOL",
+   "keys": "P",
+   "ref": "EV-13-A12-POOL",
+   "file": "04-EV-13-A12-POOL.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "2048e7a1c38891aa6797715237a739e743bac5e139bc498dff50e4b503568735",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "c7703a461676b2b5f35098ffda296b3906faf28b6a0be54c369f392d74d26751"
+  },
+  {
+   "step": 5,
+   "name": "EV-13-A12-END2",
+   "keys": "{End}{End}",
+   "ref": "EV-13-A12-END2",
+   "file": "05-EV-13-A12-END2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "cddef9c18464411a17ddd8de142db0a82953cf11142ed5ceeca6e294bfbe6648",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "97e00e5e75b2cf46010df4f4e07b02a67a8e30a6cc5384f1364e9a4e466cde39"
+  }
+ ]
+}

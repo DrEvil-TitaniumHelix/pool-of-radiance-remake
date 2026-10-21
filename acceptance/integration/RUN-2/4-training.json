@@ -1,0 +1,91 @@
+{
+ "name": "RUN-2/4-training",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4",
+ "steps": [
+  {
+   "name": "menu",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC"
+  },
+  {
+   "name": "begin",
+   "keys": "B"
+  },
+  {
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ms": 90000
+  },
+  {
+   "name": "walk-to-guilds",
+   "keys": "{Right}{Right}{Up}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Right}{Up}{Left}{Up}{Up}{Up}{Up}{Up}{Left}{Up}{Up}{Up}{Left}{Up}",
+   "ms": 90000,
+   "probe": "(g => [g.party_MapX, g.party_MapY, g.party_Dir, g.party_CellAttr, g.g_84DC])((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "thieves-no",
+   "keys": "N"
+  },
+  {
+   "name": "south",
+   "keys": "{Left}{Up}"
+  },
+  {
+   "name": "west",
+   "keys": "{Right}{Up}"
+  },
+  {
+   "name": "north-fighters",
+   "keys": "{Right}{Up}",
+   "probe": "(g => [g.party_MapX, g.party_MapY, g.party_Dir, g.party_CellAttr, g.g_84DC])((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "train-yes",
+   "keys": "Y",
+   "probe": "(g => { const c = g.SelectedChar; c.b[0x90] = 250; return (c => [String.fromCharCode(...c.b.slice(1, 1 + c.b[0])), c.b[0xAC] | c.b[0xAD] << 8 | c.b[0xAE] << 16, Array.from(c.b.slice(0x96, 0x9E)), c.b[0x90], c.b[0x32], c.b[0x11B]])(c); })((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "train-T-not-enough-xp",
+   "keys": "T",
+   "probe": "(g => (c => [String.fromCharCode(...c.b.slice(1, 1 + c.b[0])), c.b[0xAC] | c.b[0xAD] << 8 | c.b[0xAE] << 16, Array.from(c.b.slice(0x96, 0x9E)), c.b[0x90], c.b[0x32], c.b[0x11B]])(g.SelectedChar))((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "set-xp-18001",
+   "keys": "",
+   "probe": "(g => { const c = g.SelectedChar; c.b[0xAC] = 18001 & 255; c.b[0xAD] = 18001 >> 8; c.b[0xAE] = 0; c.b[0xAF] = 0; return (c => [String.fromCharCode(...c.b.slice(1, 1 + c.b[0])), c.b[0xAC] | c.b[0xAD] << 8 | c.b[0xAE] << 16, Array.from(c.b.slice(0x96, 0x9E)), c.b[0x90], c.b[0x32], c.b[0x11B]])(c); })((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "train-T",
+   "keys": "T"
+  },
+  {
+   "name": "train-confirm-Y",
+   "keys": "Y",
+   "ms": 60000
+  },
+  {
+   "name": "after-train",
+   "keys": "",
+   "probe": "(g => (c => [String.fromCharCode(...c.b.slice(1, 1 + c.b[0])), c.b[0xAC] | c.b[0xAD] << 8 | c.b[0xAE] << 16, Array.from(c.b.slice(0x96, 0x9E)), c.b[0x90], c.b[0x32], c.b[0x11B]])(g.SelectedChar))((await import('/areas/ecl_host.js')).eclG)"
+  },
+  {
+   "name": "view-corwin",
+   "keys": "V"
+  },
+  {
+   "name": "view-exit",
+   "keys": "E"
+  },
+  {
+   "name": "begin-adventuring",
+   "keys": "B"
+  },
+  {
+   "name": "explore",
+   "keys": ""
+  }
+ ]
+}

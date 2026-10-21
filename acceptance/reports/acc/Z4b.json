@@ -1,0 +1,541 @@
+{
+ "run": "Z4b",
+ "source": "back-filled from acceptance/out/acc/Z4b",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "create",
+   "keys": "C{Enter}{Enter}{Enter}{Enter}YNEWBIE{Enter}KEYAAE",
+   "ref": "",
+   "file": "02-create.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "cae737bd051db7e2e6c4b20b4b75ef4c6fe629e26c8aebb519b5e3358e3c9f50"
+  },
+  {
+   "step": 3,
+   "name": "B",
+   "keys": "B",
+   "ref": "AD-01",
+   "file": "03-B.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "abf831405b358b3a32af5e7b50c6e6db67b2edf3042ae820e96d03b182784e1e",
+   "mismatch_pixels": 14714,
+   "bbox": [
+    0,
+    0,
+    319,
+    199
+   ],
+   "ref_sha256": "cb4c0a5f04d5616999102a4338839c833d0eb179865b6c4a5a5b2c435a56f95f"
+  },
+  {
+   "step": 4,
+   "name": "b00",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "04-b00.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6fd3bc93b2805b52c5331cec096d83603abc06b0399348728dd319f4c950d502",
+   "mismatch_pixels": 7509,
+   "bbox": [
+    24,
+    24,
+    310,
+    111
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 5,
+   "name": "b01",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "05-b01.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1be9c73c161ccffbfc41732373f60fe3099700198a1d40a1b2f63c69fb3ea746",
+   "mismatch_pixels": 8039,
+   "bbox": [
+    11,
+    24,
+    310,
+    143
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 6,
+   "name": "b02",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "06-b02.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "26c75b9301d59402d0e24bcbe2d1cf6c9357a8996bafce84d7b0fe01b95de375",
+   "mismatch_pixels": 8664,
+   "bbox": [
+    9,
+    24,
+    310,
+    151
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 7,
+   "name": "b03",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "07-b03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4a2c4269b868ca9958c38fc10276e736cd6333a7e236612e221670f566862184",
+   "mismatch_pixels": 9373,
+   "bbox": [
+    9,
+    24,
+    310,
+    158
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 8,
+   "name": "b04",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "08-b04.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "17e8b37cf8f4811aceedac94afd1a29c92b61c565da9e7760c9a612ec316d99a",
+   "mismatch_pixels": 10029,
+   "bbox": [
+    9,
+    24,
+    310,
+    166
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 9,
+   "name": "b05",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "09-b05.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8f588897fd628bf949d3c39633a2bc9481a0bff99cd13842dbd3f89ed03e61a1",
+   "mismatch_pixels": 10615,
+   "bbox": [
+    9,
+    24,
+    310,
+    167
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 10,
+   "name": "b06",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "10-b06.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 11,
+   "name": "b07",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "11-b07.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 12,
+   "name": "b08",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "12-b08.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 13,
+   "name": "b09",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "13-b09.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 14,
+   "name": "b10",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "14-b10.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 15,
+   "name": "b11",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-VIEW",
+   "file": "15-b11.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 11859,
+   "bbox": [
+    1,
+    24,
+    310,
+    198
+   ],
+   "ref_sha256": "a4485a9a30d4853fc172c5b95d91ac566e0200024c76ce44dd6637fe03e54aef"
+  },
+  {
+   "step": 16,
+   "name": "AD-03-NEWGAME",
+   "keys": "",
+   "ref": "AD-03-NEWGAME",
+   "file": "16-AD-03-NEWGAME.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8fcf3345f002180f8fda726a5032c4c1cb07be4adbe1dbf9edd068d54bb934f0",
+   "mismatch_pixels": 34,
+   "bbox": [
+    299,
+    32,
+    310,
+    38
+   ],
+   "ref_sha256": "cde1b116fcf1a740508307d944db1e1c726b2430c34df83c43219df936d98539"
+  },
+  {
+   "step": 17,
+   "name": "T",
+   "keys": "{Enter}",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "17-T.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "8815e796f9e222a240ea729c99352a790b1610074cb5e5689633d9592dcaf882",
+   "mismatch_pixels": 34,
+   "bbox": [
+    299,
+    32,
+    310,
+    38
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 18,
+   "name": "t00",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "18-t00.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "509b0c12bfacb9a8347123d45b5bd94982d63e9fbf37e2485631f5fa80278f4a",
+   "mismatch_pixels": 2729,
+   "bbox": [
+    24,
+    32,
+    310,
+    126
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 19,
+   "name": "t01",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "19-t01.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "b493b24d293919de8f134950ee6b0fdc5e9481cbbcc754457c71cb292c742b4e",
+   "mismatch_pixels": 4053,
+   "bbox": [
+    24,
+    25,
+    310,
+    126
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 20,
+   "name": "t02",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "20-t02.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "93915049a62435629d038cc77f28ae6352f15a508e42acf6b7f9674af2fd39f6",
+   "mismatch_pixels": 5259,
+   "bbox": [
+    24,
+    25,
+    310,
+    126
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 21,
+   "name": "t03",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "21-t03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "45011b231f483c7aed6e51a7541f27c6501a1f77ed7638ccbd7f211c64677b79",
+   "mismatch_pixels": 4837,
+   "bbox": [
+    24,
+    25,
+    310,
+    126
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 22,
+   "name": "t04",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "22-t04.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "313cf36a995dd7c7050905e82c7606d49dc6aaa0c5c1fadc883bc8d94f2600c5",
+   "mismatch_pixels": 4531,
+   "bbox": [
+    24,
+    32,
+    310,
+    126
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 23,
+   "name": "t05",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "23-t05.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "072a06044952233680821efc1d20628becdd5f9afb518490d0eeb499e5f4d6d3",
+   "mismatch_pixels": 4779,
+   "bbox": [
+    11,
+    32,
+    310,
+    142
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 24,
+   "name": "t06",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "24-t06.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "439e52997c9fdc4af784a91e3550026b51ba1905cf72c9ccc5fae3bcf7b2e761",
+   "mismatch_pixels": 5450,
+   "bbox": [
+    9,
+    32,
+    310,
+    150
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 25,
+   "name": "t07",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "25-t07.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "69fb13717395e42ca0411838c3927082e64eccdd32e8fa0518aed686d0acf844",
+   "mismatch_pixels": 6073,
+   "bbox": [
+    9,
+    32,
+    310,
+    158
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 26,
+   "name": "t08",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "26-t08.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "d8f6a80a0bbe55adab13d1837d330f6ed519cba9c8f61d0fab6888f0888263cf",
+   "mismatch_pixels": 6644,
+   "bbox": [
+    9,
+    32,
+    310,
+    159
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 27,
+   "name": "t09",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "27-t09.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "138430eace2152530dafa3b40ac7ac9dae5aaf35d55fe64ec0c31a484db7ff02",
+   "mismatch_pixels": 7266,
+   "bbox": [
+    9,
+    32,
+    310,
+    167
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 28,
+   "name": "t10",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "28-t10.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "3a8a051d25f8eb1dc73b59ebfb4574e95626cdfbdeb6de09b873bea6e9ac5698",
+   "mismatch_pixels": 7929,
+   "bbox": [
+    9,
+    32,
+    310,
+    174
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  },
+  {
+   "step": 29,
+   "name": "t11",
+   "keys": "",
+   "ref": "AD-03-NEWGAME-STEP1",
+   "file": "29-t11.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "f998fa7d14c8075a96e4a734b64684b3e2f47343fcc52af1250a424b89b01d5b",
+   "mismatch_pixels": 8539,
+   "bbox": [
+    9,
+    32,
+    310,
+    182
+   ],
+   "ref_sha256": "bd7adb599730436f1791bf856159e9262d2430ba475e7fac487a70fa92f40ccd"
+  }
+ ]
+}

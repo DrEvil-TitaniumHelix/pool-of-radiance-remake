@@ -1,0 +1,105 @@
+{
+ "run": "ZG1",
+ "source": "back-filled from acceptance/out/acc/ZG1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-load.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 3,
+   "name": "walk1",
+   "keys": "{Up}{Left}{Up}{Up}{Up}{Right}{Up}{Right}{Up}",
+   "ref": "",
+   "file": "03-walk1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "deff90716987aa53216613f484cfbf0610e0e1a3302a1f6b0382e61335f654fb"
+  },
+  {
+   "step": 4,
+   "name": "flee1",
+   "keys": "F",
+   "ref": "ECL-10-FLEE",
+   "file": "04-flee1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "deff90716987aa53216613f484cfbf0610e0e1a3302a1f6b0382e61335f654fb"
+  },
+  {
+   "step": 5,
+   "name": "walk2",
+   "keys": "{Up}{Up}",
+   "ref": "",
+   "file": "05-walk2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dc8ce780ef3f17830cb2a67bfbc8c75aaa75209b284f53224984c98264e14b4b"
+  },
+  {
+   "step": 6,
+   "name": "flee2",
+   "keys": "F",
+   "ref": "",
+   "file": "06-flee2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "dc8ce780ef3f17830cb2a67bfbc8c75aaa75209b284f53224984c98264e14b4b"
+  },
+  {
+   "step": 7,
+   "name": "walk3",
+   "keys": "{Up}{Up}{Up}{Left}{Up}",
+   "ref": "",
+   "file": "07-walk3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "aebad81c52b15c0baf4d714f54073701048afef407c7e2d1f84923be69f08d61"
+  },
+  {
+   "step": 8,
+   "name": "flee3",
+   "keys": "F",
+   "ref": "",
+   "file": "08-flee3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "aebad81c52b15c0baf4d714f54073701048afef407c7e2d1f84923be69f08d61"
+  },
+  {
+   "step": 9,
+   "name": "VIEW-03",
+   "keys": "{Up}{Up}{Right}{Up}",
+   "ref": "VIEW-03",
+   "file": "09-VIEW-03.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1b43773b5b1da7dd0a436fe8d59a0faf95777a41e733420851bde18d15dc4f71"
+  }
+ ]
+}

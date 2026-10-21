@@ -1,0 +1,171 @@
+{
+ "run": "GBP-CLICK-1",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "party-menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-party-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "pick-load",
+   "keys": "",
+   "ref": "",
+   "file": "02-pick-load.png",
+   "sha256": "726a19cdf702c14f6670935fd5b28af8246f55d2abd297907b5bd306162f5973",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "load-menu",
+   "keys": "",
+   "ref": "",
+   "file": "03-load-menu.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "explore",
+   "keys": "",
+   "ref": "",
+   "file": "04-explore.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "turn-right",
+   "keys": "",
+   "ref": "",
+   "file": "05-turn-right.png",
+   "sha256": "987c11f96ef1a4f406a1b05f4132f71d6748fb73c347d8da79e4f54097020d7c",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "after-turn",
+   "keys": "",
+   "ref": "",
+   "file": "06-after-turn.png",
+   "sha256": "987c11f96ef1a4f406a1b05f4132f71d6748fb73c347d8da79e4f54097020d7c",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "roster-list",
+   "keys": "",
+   "ref": "",
+   "file": "07-roster-list.png",
+   "sha256": "987c11f96ef1a4f406a1b05f4132f71d6748fb73c347d8da79e4f54097020d7c",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "view-member",
+   "keys": "",
+   "ref": "",
+   "file": "08-view-member.png",
+   "sha256": "bf0456dfff2fb34fd8ec4d74b53861707286dbcdfcbaa5e65e00fb2066cd1d84",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "sheet",
+   "keys": "",
+   "ref": "",
+   "file": "09-sheet.png",
+   "sha256": "bf0456dfff2fb34fd8ec4d74b53861707286dbcdfcbaa5e65e00fb2066cd1d84",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "items",
+   "keys": "",
+   "ref": "",
+   "file": "10-items.png",
+   "sha256": "5e9c92783f4f224da8cb33b97c5ec560c7d6a76e8f4a198ab64863d8d2e44258",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "items-list",
+   "keys": "",
+   "ref": "",
+   "file": "11-items-list.png",
+   "sha256": "5e9c92783f4f224da8cb33b97c5ec560c7d6a76e8f4a198ab64863d8d2e44258",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "back",
+   "keys": "",
+   "ref": "",
+   "file": "12-back.png",
+   "sha256": "28e0591663a33dcd8131bee80ff4c8ecef435c295510cd2b629376932ae63325",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "back-2",
+   "keys": "",
+   "ref": "",
+   "file": "13-back-2.png",
+   "sha256": "53e857d0202a151fe29c203be4c79bae319480c8ca7ea88094a40b09189046a0",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 14,
+   "name": "original-mode",
+   "keys": "",
+   "ref": "",
+   "file": "14-original-mode.png",
+   "sha256": "53e857d0202a151fe29c203be4c79bae319480c8ca7ea88094a40b09189046a0",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 15,
+   "name": "end",
+   "keys": "",
+   "ref": "",
+   "file": "15-end.png",
+   "sha256": "53e857d0202a151fe29c203be4c79bae319480c8ca7ea88094a40b09189046a0",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

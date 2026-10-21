@@ -1,0 +1,270 @@
+{
+ "run": "SEEDLOOK",
+ "source": "back-filled from acceptance/out/acc/SEEDLOOK",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "s1-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-s1-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 3,
+   "name": "s1-look",
+   "keys": "L",
+   "ref": "",
+   "file": "03-s1-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7563c68cd0a173b3015a6db166a9abadaffe60da3bf903d778a4cc8e1eb8e5d4"
+  },
+  {
+   "step": 4,
+   "name": "reload2",
+   "keys": "",
+   "ref": "",
+   "file": "04-reload2.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 5,
+   "name": "s2-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "05-s2-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 6,
+   "name": "s2-look",
+   "keys": "L",
+   "ref": "",
+   "file": "06-s2-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "82c8d9bbbc4937bfcb6ebe3063727dae548b302aeaa775f3c65a065dd42a75bd"
+  },
+  {
+   "step": 7,
+   "name": "reload3",
+   "keys": "",
+   "ref": "",
+   "file": "07-reload3.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 8,
+   "name": "s3-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "08-s3-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 9,
+   "name": "s3-look",
+   "keys": "L",
+   "ref": "",
+   "file": "09-s3-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "7563c68cd0a173b3015a6db166a9abadaffe60da3bf903d778a4cc8e1eb8e5d4"
+  },
+  {
+   "step": 10,
+   "name": "reload4",
+   "keys": "",
+   "ref": "",
+   "file": "10-reload4.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 11,
+   "name": "s4-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "11-s4-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 12,
+   "name": "s4-look",
+   "keys": "L",
+   "ref": "",
+   "file": "12-s4-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "82c8d9bbbc4937bfcb6ebe3063727dae548b302aeaa775f3c65a065dd42a75bd"
+  },
+  {
+   "step": 13,
+   "name": "reload5",
+   "keys": "",
+   "ref": "",
+   "file": "13-reload5.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 14,
+   "name": "s5-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "14-s5-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 15,
+   "name": "s5-look",
+   "keys": "L",
+   "ref": "",
+   "file": "15-s5-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "68e7d7ae2f781d6d3436a9780f63b9b14e5daba7f0db03c7d93f2eb096365ca0"
+  },
+  {
+   "step": 16,
+   "name": "reload6",
+   "keys": "",
+   "ref": "",
+   "file": "16-reload6.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 17,
+   "name": "s6-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "17-s6-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 18,
+   "name": "s6-look",
+   "keys": "L",
+   "ref": "",
+   "file": "18-s6-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "82c8d9bbbc4937bfcb6ebe3063727dae548b302aeaa775f3c65a065dd42a75bd"
+  },
+  {
+   "step": 19,
+   "name": "reload7",
+   "keys": "",
+   "ref": "",
+   "file": "19-reload7.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 20,
+   "name": "s7-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "20-s7-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 21,
+   "name": "s7-look",
+   "keys": "L",
+   "ref": "",
+   "file": "21-s7-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "79665ad15e7d24377a5fbbce0f98de52b1209a9ec6811c86606bb69ceb11c088"
+  },
+  {
+   "step": 22,
+   "name": "reload8",
+   "keys": "",
+   "ref": "",
+   "file": "22-reload8.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 23,
+   "name": "s8-view",
+   "keys": "LA",
+   "ref": "",
+   "file": "23-s8-view.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 24,
+   "name": "s8-look",
+   "keys": "L",
+   "ref": "",
+   "file": "24-s8-look.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "82c8d9bbbc4937bfcb6ebe3063727dae548b302aeaa775f3c65a065dd42a75bd"
+  }
+ ]
+}

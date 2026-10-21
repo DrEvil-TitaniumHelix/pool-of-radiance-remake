@@ -1,0 +1,72 @@
+{
+ "run": "GBP-CHEAT-1",
+ "query": "sting=1&dev=1&seed=1&fast=4&hooklog=1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "boot",
+   "keys": "",
+   "ref": "",
+   "file": "01-boot.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "install-scenario",
+   "keys": "",
+   "ref": "",
+   "file": "02-install-scenario.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "load-J",
+   "keys": "LJ",
+   "ref": "",
+   "file": "03-load-J.png",
+   "sha256": "eae52cd2d42a9afc2a35d393a49a454723d47bb0ee942a8050322ba98e374d43",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "continue",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "04-continue.png",
+   "sha256": "ab6c1a38eb8bdb0016ec464b7a2318c164788b11c0573dbb711655734e0795b9",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "cheats-tab",
+   "keys": "",
+   "ref": "",
+   "file": "05-cheats-tab.png",
+   "sha256": "ab6c1a38eb8bdb0016ec464b7a2318c164788b11c0573dbb711655734e0795b9",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "step-after-teleport",
+   "keys": "{Right}{Left}",
+   "ref": "",
+   "file": "06-step-after-teleport.png",
+   "sha256": "425737b23d82978e14f84faddbbac278eec4f6cd4b13b0421ea7d29e06dc060f",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

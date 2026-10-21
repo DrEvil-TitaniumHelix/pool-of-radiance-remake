@@ -1,0 +1,31 @@
+{
+ "name": "RUN-3/ECL1_18",
+ "query": "sting=1&seed=118&fast=4",
+ "steps": [
+  {
+   "name": "boot",
+   "keys": ""
+  },
+  {
+   "name": "load-menu",
+   "inject": "acceptance/integration/saves/ECL1_18",
+   "keys": ""
+  },
+  {
+   "name": "load-C",
+   "keys": "LC",
+   "ms": 90000
+  },
+  {
+   "name": "walk",
+   "keys": "",
+   "ms": 90000,
+   "auto": {
+    "seed": 118,
+    "moves": 40,
+    "campAt": 20,
+    "max": 250
+   }
+  }
+ ]
+}

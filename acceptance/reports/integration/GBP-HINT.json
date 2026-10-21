@@ -1,0 +1,28 @@
+{
+ "run": "GBP-HINT",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "party-menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-party-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "hint-boot",
+   "keys": "",
+   "ref": "",
+   "file": "02-hint-boot.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

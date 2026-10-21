@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pool of Radiance</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; }
+  canvas { image-rendering: pixelated; image-rendering: crisp-edges; display: block; }
+  #err { position: fixed; left: 8px; bottom: 8px; color: #f55; font: 12px monospace; white-space: pre; }
+</style>
+</head>
+<body>
+<canvas id="screen" width="320" height="200"></canvas>
+<div id="err"></div>
+<script type="module">
+  import { chooseProfile, profileResource } from './plus/games.js';
+  const c = document.getElementById('screen');
+  // integer scaling, nearest neighbour (BUILD_PLAN §1)
+  function fit() {
+    let s = Math.max(1, Math.floor(Math.min(innerWidth / 320, innerHeight / 200)));
+    // Gold Box Plus asks (data-plus-hint = strip height) for a margin outside the frame for its F12 hint: one step smaller
+    // when neither the space above/below nor left/right of the centred frame would hold it.
+    const strip = +document.documentElement.dataset.plusHint || 0;
+    if (strip && s > 1 && (innerHeight - 200 * s) / 2 < strip && (innerWidth - 320 * s) / 2 < 202) s--;
+    c.style.width = 320 * s + 'px'; c.style.height = 200 * s + 'px';
+  }
+  addEventListener('resize', fit); fit();
+  async function boot() {
+    const query = new URLSearchParams(location.search);
+    // Named automation screens retain the existing Pool launch route; ordinary visits choose a profile.
+    const profile = await chooseProfile({ id: query.get('profile') || (query.has('screen') ? 'por' : null) });
+    const module = await import(profileResource(profile, profile.engine.entryModule));
+    if (typeof module[profile.engine.entryExport] !== 'function') throw new Error('Profile entry point unavailable');
+    await module[profile.engine.entryExport](c, { profile });
+  }
+  boot().catch((e) => {
+    if (String(e && e.message) === 'TerminateGame') return;
+    // already reported (drawn on the game screen, stored in localStorage por:lastError / por:errors) by engine/errors.js
+    document.getElementById('err').textContent = String(e && e.stack || e);
+    window.__screenReady = true;   // a stopped program is the final screen for headless runs
+  });
+</script>
+</body>
+</html>

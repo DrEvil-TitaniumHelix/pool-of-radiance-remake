@@ -1,0 +1,64 @@
+{
+ "run": "ZGT",
+ "source": "back-filled from acceptance/out/acc/ZGT",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-load.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30"
+  },
+  {
+   "step": 3,
+   "name": "walk1a",
+   "keys": "{Up}{Left}{Up}{Up}{Up}{Right}{Up}{Right}",
+   "ref": "",
+   "file": "03-walk1a.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "6abeb197a534ad1e2fccfc8f17131bb8b539f879828882022ee5ee28e01934b8"
+  },
+  {
+   "step": 4,
+   "name": "enc",
+   "keys": "{Up}",
+   "ref": "",
+   "file": "04-enc.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9bc64cc1359add40bebf4c20475b8369b23d577c108a878f95caa3eacc9db529"
+  },
+  {
+   "step": 5,
+   "name": "flee1",
+   "keys": "F",
+   "ref": "ECL-10-FLEE",
+   "file": "05-flee1.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "a0713a69d69e9ba6bd37e546bdb90dbe311a57f5f5ac21ddd82af67e52094aac",
+   "mismatch_pixels": 0,
+   "bbox": null,
+   "ref_sha256": "222e16ce9615b3c7f27d4f4f82d248c9bcc6f9de06bb1f7d4fc73d87adf4b803"
+  }
+ ]
+}

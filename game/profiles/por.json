@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "id": "por",
+  "title": "Pool of Radiance",
+  "version": "1.3",
+  "supported": true,
+  "manifest": {
+    "url": "../byoc/manifest-por-1.3.json",
+    "id": "por-1.3",
+    "requiredCount": 115,
+    "files": [
+      "START.EXE",
+      "ITEMS",
+      "8X8D1.DAX",
+      "8X8D2.DAX",
+      "8X8D3.DAX",
+      "8X8D4.DAX",
+      "8X8D5.DAX",
+      "8X8D6.DAX",
+      "8X8D7.DAX",
+      "8X8D8.DAX",
+      "BACPAC.DAX",
+      "BODY1.DAX",
+      "BODY2.DAX",
+      "BODY3.DAX",
+      "BODY4.DAX",
+      "BODY5.DAX",
+      "BODY6.DAX",
+      "BODY7.DAX",
+      "BODY8.DAX",
+      "CBODY.DAX",
+      "CHEAD.DAX",
+      "COMSPR.DAX",
+      "CPIC1.DAX",
+      "CPIC2.DAX",
+      "CPIC3.DAX",
+      "CPIC4.DAX",
+      "CPIC5.DAX",
+      "CPIC6.DAX",
+      "CPIC7.DAX",
+      "CPIC8.DAX",
+      "DUNGCOM.DAX",
+      "ECL1.DAX",
+      "ECL2.DAX",
+      "ECL3.DAX",
+      "ECL4.DAX",
+      "ECL5.DAX",
+      "ECL6.DAX",
+      "ECL7.DAX",
+      "ECL8.DAX",
+      "FINAL5.DAX",
+      "GEO1.DAX",
+      "GEO2.DAX",
+      "GEO3.DAX",
+      "GEO4.DAX",
+      "GEO5.DAX",
+      "GEO6.DAX",
+      "GEO7.DAX",
+      "GEO8.DAX",
+      "HEAD1.DAX",
+      "HEAD2.DAX",
+      "HEAD3.DAX",
+      "HEAD4.DAX",
+      "HEAD5.DAX",
+      "HEAD6.DAX",
+      "HEAD7.DAX",
+      "HEAD8.DAX",
+      "ICON.DAX",
+      "ITEM1.DAX",
+      "ITEM2.DAX",
+      "ITEM3.DAX",
+      "ITEM4.DAX",
+      "ITEM5.DAX",
+      "ITEM6.DAX",
+      "ITEM7.DAX",
+      "ITEM8.DAX",
+      "MON1CHA.DAX",
+      "MON1ITM.DAX",
+      "MON2CHA.DAX",
+      "MON2ITM.DAX",
+      "MON2SPC.DAX",
+      "MON3CHA.DAX",
+      "MON3ITM.DAX",
+      "MON4CHA.DAX",
+      "MON4ITM.DAX",
+      "MON4SPC.DAX",
+      "MON5CHA.DAX",
+      "MON5ITM.DAX",
+      "MON5SPC.DAX",
+      "MON6CHA.DAX",
+      "MON6ITM.DAX",
+      "MON6SPC.DAX",
+      "MON7CHA.DAX",
+      "MON7ITM.DAX",
+      "MON7SPC.DAX",
+      "MON8CHA.DAX",
+      "MON8ITM.DAX",
+      "MON8SPC.DAX",
+      "PIC1.DAX",
+      "PIC2.DAX",
+      "PIC3.DAX",
+      "PIC4.DAX",
+      "PIC5.DAX",
+      "PIC6.DAX",
+      "PIC7.DAX",
+      "PIC8.DAX",
+      "RANDCOM.DAX",
+      "SPRIT1.DAX",
+      "SPRIT2.DAX",
+      "SPRIT3.DAX",
+      "SPRIT4.DAX",
+      "SPRIT5.DAX",
+      "SPRIT6.DAX",
+      "SPRIT7.DAX",
+      "SPRIT8.DAX",
+      "SQRPACI.DAX",
+      "TITLE.DAX",
+      "WALLDEF1.DAX",
+      "WALLDEF2.DAX",
+      "WALLDEF3.DAX",
+      "WALLDEF4.DAX",
+      "WALLDEF5.DAX",
+      "WALLDEF6.DAX",
+      "WALLDEF7.DAX",
+      "WALLDEF8.DAX",
+      "WILDCOM.DAX",
+      "GAME.OVR"
+    ]
+  },
+  "daxGroups": {
+    "8X8D": [
+      "8X8D1.DAX",
+      "8X8D2.DAX",
+      "8X8D3.DAX",
+      "8X8D4.DAX",
+      "8X8D5.DAX",
+      "8X8D6.DAX",
+      "8X8D7.DAX",
+      "8X8D8.DAX"
+    ],
+    "BACPAC": [
+      "BACPAC.DAX"
+    ],
+    "BODY": [
+      "BODY1.DAX",
+      "BODY2.DAX",
+      "BODY3.DAX",
+      "BODY4.DAX",
+      "BODY5.DAX",
+      "BODY6.DAX",
+      "BODY7.DAX",
+      "BODY8.DAX"
+    ],
+    "CBODY": [
+      "CBODY.DAX"
+    ],
+    "CHEAD": [
+      "CHEAD.DAX"
+    ],
+    "COMSPR": [
+      "COMSPR.DAX"
+    ],
+    "CPIC": [
+      "CPIC1.DAX",
+      "CPIC2.DAX",
+      "CPIC3.DAX",
+      "CPIC4.DAX",
+      "CPIC5.DAX",
+      "CPIC6.DAX",
+      "CPIC7.DAX",
+      "CPIC8.DAX"
+    ],
+    "DUNGCOM": [
+      "DUNGCOM.DAX"
+    ],
+    "ECL": [
+      "ECL1.DAX",
+      "ECL2.DAX",
+      "ECL3.DAX",
+      "ECL4.DAX",
+      "ECL5.DAX",
+      "ECL6.DAX",
+      "ECL7.DAX",
+      "ECL8.DAX"
+    ],
+    "FINAL": [
+      "FINAL5.DAX"
+    ],
+    "GEO": [
+      "GEO1.DAX",
+      "GEO2.DAX",
+      "GEO3.DAX",
+      "GEO4.DAX",
+      "GEO5.DAX",
+      "GEO6.DAX",
+      "GEO7.DAX",
+      "GEO8.DAX"
+    ],
+    "HEAD": [
+      "HEAD1.DAX",
+      "HEAD2.DAX",
+      "HEAD3.DAX",
+      "HEAD4.DAX",
+      "HEAD5.DAX",
+      "HEAD6.DAX",
+      "HEAD7.DAX",
+      "HEAD8.DAX"
+    ],
+    "ICON": [
+      "ICON.DAX"
+    ],
+    "ITEM": [
+      "ITEM1.DAX",
+      "ITEM2.DAX",
+      "ITEM3.DAX",
+      "ITEM4.DAX",
+      "ITEM5.DAX",
+      "ITEM6.DAX",
+      "ITEM7.DAX",
+      "ITEM8.DAX"
+    ],
+    "MONCHA": [
+      "MON1CHA.DAX",
+      "MON2CHA.DAX",
+      "MON3CHA.DAX",
+      "MON4CHA.DAX",
+      "MON5CHA.DAX",
+      "MON6CHA.DAX",
+      "MON7CHA.DAX",
+      "MON8CHA.DAX"
+    ],
+    "MONITM": [
+      "MON1ITM.DAX",
+      "MON2ITM.DAX",
+      "MON3ITM.DAX",
+      "MON4ITM.DAX",
+      "MON5ITM.DAX",
+      "MON6ITM.DAX",
+      "MON7ITM.DAX",
+      "MON8ITM.DAX"
+    ],
+    "MONSPC": [
+      "MON2SPC.DAX",
+      "MON4SPC.DAX",
+      "MON5SPC.DAX",
+      "MON6SPC.DAX",
+      "MON7SPC.DAX",
+      "MON8SPC.DAX"
+    ],
+    "PIC": [
+      "PIC1.DAX",
+      "PIC2.DAX",
+      "PIC3.DAX",
+      "PIC4.DAX",
+      "PIC5.DAX",
+      "PIC6.DAX",
+      "PIC7.DAX",
+      "PIC8.DAX"
+    ],
+    "RANDCOM": [
+      "RANDCOM.DAX"
+    ],
+    "SPRIT": [
+      "SPRIT1.DAX",
+      "SPRIT2.DAX",
+      "SPRIT3.DAX",
+      "SPRIT4.DAX",
+      "SPRIT5.DAX",
+      "SPRIT6.DAX",
+      "SPRIT7.DAX",
+      "SPRIT8.DAX"
+    ],
+    "SQRPACI": [
+      "SQRPACI.DAX"
+    ],
+    "TITLE": [
+      "TITLE.DAX"
+    ],
+    "WALLDEF": [
+      "WALLDEF1.DAX",
+      "WALLDEF2.DAX",
+      "WALLDEF3.DAX",
+      "WALLDEF4.DAX",
+      "WALLDEF5.DAX",
+      "WALLDEF6.DAX",
+      "WALLDEF7.DAX",
+      "WALLDEF8.DAX"
+    ],
+    "WILDCOM": [
+      "WILDCOM.DAX"
+    ]
+  },
+  "ecl": {
+    "opcodeTableVersion": "por-1.3-ov03-ov07",
+    "spec": "decode/ecl/ECL_VM.md",
+    "implementation": "../engine/ecl.js",
+    "baseAddress": 39168,
+    "codeBufferBytes": 7680,
+    "recordHeaderBytes": 2
+  },
+  "recordSizes": {
+    "TChar": 285,
+    "item": 63,
+    "effect": 9,
+    "combat": 22
+  },
+  "areas": [
+    {
+      "dataSet": 1,
+      "block": 18,
+      "name": "Monster plaza / Podol Plaza candidate",
+      "purpose": "Crowded plaza, disguise/sneaking, auction and hidden Ilmater temple.",
+      "source": "decode/ecl/scripts/ECL1_18.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 1,
+      "block": 24,
+      "name": "Temple of Bane and adjacent mansion",
+      "purpose": "Holy-symbol entry test, altar battles and Dirten temple recovery.",
+      "source": "decode/ecl/scripts/ECL1_24.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 2,
+      "block": 9,
+      "name": "Stojanow Gate",
+      "purpose": "Gate toll/password, bugbear guards and alarm encounters.",
+      "source": "decode/ecl/scripts/ECL2_09.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 2,
+      "block": 15,
+      "name": "Ruined library",
+      "purpose": "Library stacks, journal discoveries, spectre and mad survivor.",
+      "source": "decode/ecl/scripts/ECL2_15.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 2,
+      "block": 20,
+      "name": "Phlan slums",
+      "purpose": "Monster encounters, potion commission and fortune teller.",
+      "source": "decode/ecl/scripts/ECL2_20.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 3,
+      "block": 0,
+      "name": "Civilized Phlan",
+      "purpose": "Harbor passages, shops, temples, city watch and Rolf tour.",
+      "source": "decode/ecl/scripts/ECL3_00.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 3,
+      "block": 8,
+      "name": "City hall / council interiors",
+      "purpose": "Commissions, mission rewards, Cadorna and final victory recognition.",
+      "source": "decode/ecl/scripts/ECL3_08.md",
+      "hasGeo": false
+    },
+    {
+      "dataSet": 3,
+      "block": 11,
+      "name": "Training / guild interiors",
+      "purpose": "Class directions, dueling arena and recruiting adventurers.",
+      "source": "decode/ecl/scripts/ECL3_11.md",
+      "hasGeo": false
+    },
+    {
+      "dataSet": 3,
+      "block": 14,
+      "name": "Trapped mansion / Kovel candidate",
+      "purpose": "Door traps, thieves, loot and castle-maze journal maps.",
+      "source": "decode/ecl/scripts/ECL3_14.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 4,
+      "block": 2,
+      "name": "Monster district / thieves guild",
+      "purpose": "Frog encounters, barracks, Restal guild and textile-house route through well.",
+      "source": "decode/ecl/scripts/ECL4_02.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 4,
+      "block": 10,
+      "name": "Valhingen graveyard",
+      "purpose": "Undead, spectre and vampire-centered graveyard quest.",
+      "source": "decode/ecl/scripts/ECL4_10.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 4,
+      "block": 21,
+      "name": "Sokal Keep",
+      "purpose": "Boat arrival, haunted defenders and Ferran Martinez history.",
+      "source": "decode/ecl/scripts/ECL4_21.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 5,
+      "block": 3,
+      "name": "Castle outer district A",
+      "purpose": "Giant patrols/passwords, alarm, prisoners and Cadorna rescue.",
+      "source": "decode/ecl/scripts/ECL5_03.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 5,
+      "block": 4,
+      "name": "Castle outer district B",
+      "purpose": "Giant patrols, passwords, slaves and intelligence records.",
+      "source": "decode/ecl/scripts/ECL5_04.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 5,
+      "block": 5,
+      "name": "Castle hedge / inner approach",
+      "purpose": "Trolls, captive mage and false Tyranthraxus.",
+      "source": "decode/ecl/scripts/ECL5_05.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 5,
+      "block": 6,
+      "name": "Castle inhabited district",
+      "purpose": "Disguise offered by half-orcs; Bane shrine and guards.",
+      "source": "decode/ecl/scripts/ECL5_06.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 5,
+      "block": 7,
+      "name": "Tyranthraxus audience tower",
+      "purpose": "Final confrontation, defeat and endgame departure.",
+      "source": "decode/ecl/scripts/ECL5_07.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 6,
+      "block": 1,
+      "name": "Buccaneer base",
+      "purpose": "Slave rescue, escalating combat waves and captain ransom.",
+      "source": "decode/ecl/scripts/ECL6_01.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 6,
+      "block": 19,
+      "name": "Diogenes dragon cave",
+      "purpose": "Magic mouth, silver dragon advice, pledge/gift and silver bottle.",
+      "source": "decode/ecl/scripts/ECL6_19.md",
+      "hasGeo": false
+    },
+    {
+      "dataSet": 6,
+      "block": 25,
+      "name": "Western travel / outpost approaches",
+      "purpose": "Dragon cave, buccaneer base, diplomatic keep and wilderness caves.",
+      "source": "decode/ecl/scripts/ECL6_25.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 6,
+      "block": 28,
+      "name": "Diplomatic / Zhentil outpost candidate",
+      "purpose": "Guards, commandant packet and dinner interrogation.",
+      "source": "decode/ecl/scripts/ECL6_28.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 7,
+      "block": 17,
+      "name": "Nomad camp",
+      "purpose": "Feast, allegiance and kobold assault with cooperation or betrayal.",
+      "source": "decode/ecl/scripts/ECL7_17.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 7,
+      "block": 22,
+      "name": "Prison / teleport chambers",
+      "purpose": "Imprisoned priest, escape hole, Tyrmor journal and teleport rooms.",
+      "source": "decode/ecl/scripts/ECL7_22.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 7,
+      "block": 23,
+      "name": "Polluted-river facility",
+      "purpose": "Mutated lizard men, experiments, slaves, pumps and contaminant.",
+      "source": "decode/ecl/scripts/ECL7_23.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 7,
+      "block": 26,
+      "name": "Northern travel / lizard settlements",
+      "purpose": "Nomad camp entrance, northern city/graveyard routes and lizard encounters.",
+      "source": "decode/ecl/scripts/ECL7_26.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 8,
+      "block": 13,
+      "name": "Kobold complex",
+      "purpose": "Truce, traps, throne, captive barbarian and community treasure.",
+      "source": "decode/ecl/scripts/ECL8_13.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 8,
+      "block": 16,
+      "name": "Ruined castle / lizardmen",
+      "purpose": "Lizard elder and champion duel, ruins, pools and ambushes.",
+      "source": "decode/ecl/scripts/ECL8_16.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 8,
+      "block": 27,
+      "name": "Eastern travel / caves",
+      "purpose": "Quicksand castle approach, concealed kobold caves and wilderness chambers.",
+      "source": "decode/ecl/scripts/ECL8_27.md",
+      "hasGeo": true
+    },
+    {
+      "dataSet": 8,
+      "block": 29,
+      "name": "Kuto's Well / bandit area",
+      "purpose": "Well descent, bandit gang, monster parley and hidden door.",
+      "source": "decode/ecl/scripts/ECL8_29.md",
+      "hasGeo": true
+    }
+  ],
+  "questTable": {
+    "status": "placeholder",
+    "entries": [],
+    "source": "decode/ecl/FLAGMAP.md"
+  },
+  "pediaSources": {
+    "monsters": {
+      "groups": [
+        "MONCHA"
+      ],
+      "records": "all records in each listed DAX file",
+      "recordSize": "TChar",
+      "itemsGroup": "MONITM",
+      "effectsGroup": "MONSPC",
+      "source": "decode/data/MONSTERS.md"
+    },
+    "items": {
+      "catalogue": {
+        "file": "ITEMS",
+        "headerBytes": 2,
+        "recordBytes": 16,
+        "recordCount": 128
+      },
+      "groups": [
+        "ITEM",
+        "MONITM"
+      ],
+      "recordSize": "item",
+      "nameWords": {
+        "file": "START.EXE",
+        "dsOffset": 4263,
+        "stride": 21,
+        "encoding": "pascal-string"
+      },
+      "source": "decode/data/SAVES.md"
+    },
+    "spells": {
+      "file": "START.EXE",
+      "container": "EXEPACK load module DS image",
+      "definitions": {
+        "dsOffset": 12794,
+        "stride": 16,
+        "count": 68
+      },
+      "names": {
+        "dsOffset": 10473,
+        "stride": 41,
+        "encoding": "pascal-string"
+      },
+      "activeEffectsGroup": "MONSPC",
+      "note": "MONnSPC stores active effects, not spell definitions or memorized spell lists.",
+      "source": "game/areas/magic_ov22.js"
+    },
+    "places": {
+      "groups": [
+        "GEO",
+        "ECL"
+      ],
+      "names": "areas",
+      "source": "decode/ecl/scripts/INDEX.md"
+    }
+  },
+  "saveFormat": {
+    "id": "por-1.3-dos",
+    "gameBytes": 13137,
+    "slots": "ABCDEFGHIJ",
+    "partyCapacity": 8,
+    "gamePattern": "SAVGAM{slot}.DAT",
+    "characterPattern": "CHRDAT{slot}{member}.SAV",
+    "itemExtension": ".ITM",
+    "effectExtension": ".SPC",
+    "rosterExtension": ".CHA",
+    "rosterList": "charlist.txt",
+    "source": "decode/data/SAVES.md"
+  },
+  "engine": {
+    "id": "por-1.3",
+    "entryModule": "../engine/main.js",
+    "entryExport": "MainProgram",
+    "areaModules": [
+      "combat.js",
+      "combat_core.js",
+      "combat_ov05.js",
+      "combat_ov09.js",
+      "combat_ov13.js",
+      "combat_ov18.js",
+      "combat_ov19.js",
+      "combat_ov24.js",
+      "ecl_host.js",
+      "flow.js",
+      "magic.js",
+      "magic_core.js",
+      "magic_ov04.js",
+      "magic_ov08.js",
+      "magic_ov15.js",
+      "magic_ov22.js",
+      "magic_spells.js",
+      "party.js",
+      "party_core.js",
+      "party_ov06.js",
+      "party_ov12.js",
+      "party_ov16a.js",
+      "party_ov16b.js",
+      "party_ov17.js",
+      "party_ov20.js",
+      "party_ov21.js",
+      "res_00ba.js",
+      "res_00ba_core.js",
+      "res_00ba_u.js",
+      "res_00ba_v.js",
+      "startup.js",
+      "testparty.js",
+      "view.js",
+      "view_ov10.js",
+      "view_ov14.js",
+      "view_ov23.js",
+      "view_ov28.js",
+      "view_ov30.js",
+      "view_ov31.js",
+      "view_ov32.js"
+    ],
+    "state": {
+      "executable": "START.EXE",
+      "globals": "../state/globals.json",
+      "dsImageOffset": 51136,
+      "dsBytes": 34656
+    },
+    "font": {
+      "file": "8X8D1.DAX",
+      "record": 201
+    },
+    "storage": {
+      "data": "por-data",
+      "saves": "por-save"
+    },
+    "configuration": "E\r\nP\r\nC:\\POOLRAD\\\r\nC:\\POOLRAD\\SAVE\\\r\nF\r\n"
+  }
+}

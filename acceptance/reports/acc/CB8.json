@@ -1,0 +1,116 @@
+{
+ "run": "CB8",
+ "source": "back-filled from acceptance/out/acc/CB8",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e"
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b"
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4"
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5"
+  },
+  {
+   "step": 5,
+   "name": "walk-until-encounter",
+   "keys": "{Up}{Up}{Right}{Up}{Left}",
+   "ref": "",
+   "file": "05-walk-until-encounter.png",
+   "ready": true,
+   "reps": 7,
+   "errors": [],
+   "sha256": "79f11394c2e8914802583b7802a5d4e025a16334c0ffa9873015803be8090272"
+  },
+  {
+   "step": 6,
+   "name": "combat-choice",
+   "keys": "C",
+   "ref": "",
+   "file": "06-combat-choice.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "5b2589541de51284aeaaea25ffc418aab373f39025a61496021e0339be135228"
+  },
+  {
+   "step": 7,
+   "name": "to-ALYS",
+   "keys": "",
+   "ref": "",
+   "file": "07-to-ALYS.png",
+   "ready": true,
+   "reps": 4,
+   "errors": [],
+   "sha256": "f1220805d24dfeb8eb978d3973a84f5e7a7f91f5a0687096315ba8a6a11d0934"
+  },
+  {
+   "step": 8,
+   "name": "CB-10",
+   "keys": "T",
+   "ref": "",
+   "file": "08-CB-10.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4f994c19c8d9f1e90cb5ff267e7fca575db6ac36057313faa2727f56b7573a70"
+  },
+  {
+   "step": 9,
+   "name": "CB-10b",
+   "keys": "",
+   "ref": "",
+   "file": "09-CB-10b.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "4c1c4073f34637415bcc6e296adfd6c21d328900c119d9226d5846a471ba49a3"
+  },
+  {
+   "step": 10,
+   "name": "CB-10c",
+   "keys": "",
+   "ref": "",
+   "file": "10-CB-10c.png",
+   "ready": true,
+   "reps": 1,
+   "errors": [],
+   "sha256": "9e694bbab7744000841fc26436c120cf834d8a280fce1345ccc521fbfb837c02"
+  }
+ ]
+}

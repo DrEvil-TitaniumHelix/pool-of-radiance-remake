@@ -1,0 +1,23 @@
+{
+  "name": "sokal-gate",
+  "title": "Level-5 party at the Sokal Keep landing",
+  "note": "Data set 4, block 21 (ECL4_21, Sokal Keep): the block's own init (9A92) lands the party at (8,14) facing north, the square in front of the keep, and prints the boat's arrival. No quest flags set.",
+  "slot": "J",
+  "dataset": 4, "block": 21, "map": 21, "x": 8, "y": 14, "facing": "N",
+  "clock": { "hour": 9, "minute": 0, "day": 1, "month": 1, "year": 0 },
+  "flags": {},
+  "party": [
+    { "name": "BRAND", "race": "Human", "class": "Fighter", "level": 5, "alignment": "Lawful Good", "gold": 100,
+      "stats": { "str": 18, "exc": 90, "int": 10, "wis": 12, "dex": 17, "con": 17, "cha": 12 } },
+    { "name": "DURIN", "race": "Dwarf", "class": "Fighter", "level": 5, "gold": 100 },
+    { "name": "MIRIEL", "race": "Human", "gender": "F", "class": "Cleric", "level": 5, "gold": 100,
+      "spells": ["Cure Light Wounds", "Cure Light Wounds", "Cure Light Wounds", "Bless", "Protection From Evil", "Hold Person", "Hold Person", "Spiritual Hammer"] },
+    { "name": "ZOLTAN", "race": "Human", "class": "Magic-User", "level": 5, "gold": 100,
+      "learn": ["Magic Missile", "Stinking Cloud", "Invisibility", "Mirror Image"],
+      "spells": ["Sleep", "Magic Missile", "Magic Missile", "Stinking Cloud", "Invisibility"] },
+    { "name": "TAM", "race": "Halfling", "class": "Thief", "level": 5, "gold": 100 },
+    { "name": "SYLVAN", "race": "Elf", "gender": "F", "class": "Fighter/Magic-User", "levels": [5, 5], "gold": 100,
+      "learn": ["Magic Missile", "Stinking Cloud", "Invisibility", "Mirror Image"],
+      "spells": ["Sleep", "Magic Missile", "Magic Missile", "Stinking Cloud", "Invisibility"] }
+  ]
+}

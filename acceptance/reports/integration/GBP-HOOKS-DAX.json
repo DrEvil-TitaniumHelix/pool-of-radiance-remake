@@ -1,0 +1,61 @@
+{
+ "run": "GBP-HOOKS-DAX",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "party-menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-party-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "L",
+   "ref": "",
+   "file": "02-load.png",
+   "sha256": "e2c804079e1a8760c049a8063b1db9be6a32eca308701eecdadad1f92b620073",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "explore",
+   "keys": "A",
+   "ref": "",
+   "file": "03-explore.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "resolver",
+   "keys": "",
+   "ref": "",
+   "file": "04-resolver.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "explore-after",
+   "keys": "",
+   "ref": "",
+   "file": "05-explore-after.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

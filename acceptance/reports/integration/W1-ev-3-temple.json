@@ -1,0 +1,160 @@
+{
+ "run": "W1-ev-3-temple",
+ "query": "save=testparty&force=1&sting=1&seed=7&fast=4&hooklog=1",
+ "steps": [
+  {
+   "step": 1,
+   "name": "menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load-C",
+   "keys": "LC",
+   "ref": "",
+   "file": "02-load-C.png",
+   "sha256": "e4ebfdf172d34833d15140156c3a740af69920531b3878c37de7815b2292499b",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "begin",
+   "keys": "B",
+   "ref": "",
+   "file": "03-begin.png",
+   "sha256": "64831bdb966586dc1438d7491def12182a3986f049729588a2178d75d2da31a4",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "tour",
+   "keys": "{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}{Enter}",
+   "ref": "",
+   "file": "04-tour.png",
+   "sha256": "0434e8b5326fb5163805bb78db533826feb642cf755f681f06a6047f0b76c4c5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "walk-to-tyr",
+   "keys": "{Right}{Right}{Up}{Up}{Left}{Up}{Up}{Right}{Up}{Up}{Up}{Right}{Up}{Left}{Up}{Up}{Right}{Up}{Left}{Up}",
+   "ref": "",
+   "file": "05-walk-to-tyr.png",
+   "sha256": "9c52691d52034f71197bcd21f9962c9bf9ce161f72245efb55e9db1cdd9b2624",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "yes",
+   "keys": "Y",
+   "ref": "",
+   "file": "06-yes.png",
+   "sha256": "a63c45270679c57c401ecc3d8aae7b01b4da158baa027b9bd714353ac695a672",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "heal",
+   "keys": "H",
+   "ref": "",
+   "file": "07-heal.png",
+   "sha256": "660e0e936c2412b5452ee25c18a78425ecffa51ad1bcd4f932cf5eb0e3d53878",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 8,
+   "name": "highlight-clw",
+   "keys": "{End}{End}",
+   "ref": "",
+   "file": "08-highlight-clw.png",
+   "sha256": "12ae519fb6a4f9987335ad585cc708a85f52b7e1e004b1eab00698ca26eef01d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 9,
+   "name": "choose-clw",
+   "keys": "H",
+   "ref": "",
+   "file": "09-choose-clw.png",
+   "sha256": "f2ab6a737621db8508e9267947341ecc5dff3b60fcca5e77e711e16c2ab8860a",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 10,
+   "name": "pay",
+   "keys": "Y",
+   "ref": "",
+   "file": "10-pay.png",
+   "sha256": "12ae519fb6a4f9987335ad585cc708a85f52b7e1e004b1eab00698ca26eef01d",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 11,
+   "name": "exit-list",
+   "keys": "E",
+   "ref": "",
+   "file": "11-exit-list.png",
+   "sha256": "8547ec0e870349691e2de6416aa388a10dd82a0bd80ecdd9990186c40dd1cf8e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 12,
+   "name": "exit-temple",
+   "keys": "E",
+   "ref": "",
+   "file": "12-exit-temple.png",
+   "sha256": "fa608edcbad14efcd31b35e4d8ece90650d4d6060d33f92fabc4676e897a6deb",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 13,
+   "name": "explore",
+   "keys": "{Enter}",
+   "ref": "",
+   "file": "13-explore.png",
+   "sha256": "fa608edcbad14efcd31b35e4d8ece90650d4d6060d33f92fabc4676e897a6deb",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 14,
+   "name": "hooklog-dump",
+   "keys": "",
+   "ref": "",
+   "file": "14-hooklog-dump.png",
+   "sha256": "fa608edcbad14efcd31b35e4d8ece90650d4d6060d33f92fabc4676e897a6deb",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

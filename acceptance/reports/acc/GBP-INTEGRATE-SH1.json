@@ -1,0 +1,84 @@
+{
+  "run": "GBP-INTEGRATE-SH1",
+  "query": "sting=1&fast=4&seed=1&profile=por&plus=0",
+  "steps": [
+    {
+      "step": 1,
+      "name": "menu",
+      "keys": "",
+      "ref": "",
+      "file": "01-menu.png",
+      "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 2,
+      "name": "VIEW-01-SEARCH",
+      "keys": "LAS",
+      "ref": "",
+      "file": "02-VIEW-01-SEARCH.png",
+      "sha256": "a392b91507d52c21578bbcf7bd92c5cb7896202484a6df2f44e4977cfe3ba538",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 3,
+      "name": "REF-CHECK-SEARCH",
+      "keys": "",
+      "ref": "",
+      "file": "03-REF-CHECK-SEARCH.png",
+      "sha256": "a392b91507d52c21578bbcf7bd92c5cb7896202484a6df2f44e4977cfe3ba538",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 4,
+      "name": "VIEW-01-TURN",
+      "keys": "S{Down}",
+      "ref": "",
+      "file": "04-VIEW-01-TURN.png",
+      "sha256": "ee09e3ab3e808b2bd0f96b5e8c20b34b98dfce70335fd62f4a7add761a7dc98c",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 5,
+      "name": "ECL-02",
+      "keys": "{Up}",
+      "ref": "",
+      "file": "05-ECL-02.png",
+      "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 6,
+      "name": "REF-CHECK-CITY",
+      "keys": "",
+      "ref": "",
+      "file": "06-REF-CHECK-CITY.png",
+      "sha256": "5566fe82ddf2ba182b149777d6528f401976471ea152aac72a1c16e625035338",
+      "ready": true,
+      "reps": 1,
+      "errors": []
+    },
+    {
+      "step": 7,
+      "name": "VIEW-07",
+      "keys": "V",
+      "ref": "VIEW-07",
+      "file": "07-VIEW-07.png",
+      "sha256": "9189c38ecf1a18605f7689d9cbcff2bebf5614312b9680c6ef39326611b38ac0",
+      "ready": true,
+      "reps": 1,
+      "errors": [],
+      "mismatch_pixels": 0
+    }
+  ]
+}

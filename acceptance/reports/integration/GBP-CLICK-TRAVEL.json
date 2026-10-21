@@ -1,0 +1,83 @@
+{
+ "run": "GBP-CLICK-TRAVEL",
+ "query": "sting=1&seed=1&fast=4",
+ "steps": [
+  {
+   "step": 1,
+   "name": "party-menu",
+   "keys": "",
+   "ref": "",
+   "file": "01-party-menu.png",
+   "sha256": "1f2fbfd72fdfdd9a696f0cb854ee85def226dd00cb7f192d35522c392dc5c83e",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 2,
+   "name": "load",
+   "keys": "LA",
+   "ref": "",
+   "file": "02-load.png",
+   "sha256": "18f40b831a41d481f1b0f9134af6c987f6327e13bbc7d14d2fe6810189ce8b30",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 3,
+   "name": "area-map",
+   "keys": "",
+   "ref": "",
+   "file": "03-area-map.png",
+   "sha256": "812dfd53130f02855b9f86e5d8eb7cf39f56291b2f1eb3b48899479e8738f451",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 4,
+   "name": "map-list",
+   "keys": "",
+   "ref": "",
+   "file": "04-map-list.png",
+   "sha256": "812dfd53130f02855b9f86e5d8eb7cf39f56291b2f1eb3b48899479e8738f451",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 5,
+   "name": "regions",
+   "keys": "",
+   "ref": "",
+   "file": "05-regions.png",
+   "sha256": "812dfd53130f02855b9f86e5d8eb7cf39f56291b2f1eb3b48899479e8738f451",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 6,
+   "name": "walk",
+   "keys": "",
+   "ref": "",
+   "file": "06-walk.png",
+   "sha256": "a1c734d29993e7cbc3d4a87cfd88d2efd5bc536eb05ab67c40bc3d7c93b63af5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  },
+  {
+   "step": 7,
+   "name": "arrived",
+   "keys": "",
+   "ref": "",
+   "file": "07-arrived.png",
+   "sha256": "a1c734d29993e7cbc3d4a87cfd88d2efd5bc536eb05ab67c40bc3d7c93b63af5",
+   "ready": true,
+   "reps": 1,
+   "errors": []
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+#por-plus-menu { position:fixed; top:8px; right:8px; z-index:100; }
+/* the always-visible hint strip: "F12: Plus" + the gear, both 94x28, placed by plus.js in a margin outside the frame */
+#por-plus-hint { position:fixed; z-index:100; box-sizing:border-box; width:94px; height:28px; padding:3px 6px; font:13px/20px system-ui,sans-serif; white-space:nowrap; color:#f1f4f8; background:#293d54; border:1px solid #8ea8c2; border-radius:5px; cursor:pointer; }
+#por-plus-hint[hidden] { display:none; }
+#por-plus-hint:focus-visible { outline:3px solid #ffd76b; outline-offset:2px; }
+#por-plus { position:fixed; inset:5vh 5vw; z-index:1000; background:#16202e; color:#f1f4f8; border:1px solid #9bb4d0; border-radius:10px; box-shadow:0 12px 50px #000b; font:16px/1.5 system-ui,sans-serif; overflow:auto; }
+#por-plus[hidden], #por-plus-menu[hidden] { display:none; }
+#por-plus header { display:flex; justify-content:space-between; align-items:center; padding:14px; }
+#por-plus nav { display:flex; flex-wrap:wrap; gap:6px; padding:0 14px 14px; border-bottom:1px solid #526579; }
+#por-plus button, #por-plus-menu { font:inherit; color:#f1f4f8; background:#293d54; border:1px solid #8ea8c2; border-radius:5px; padding:6px 10px; cursor:pointer; }
+#por-plus button[aria-selected=true] { background:#466a92; }
+#por-plus :focus-visible, #por-plus-menu:focus-visible { outline:3px solid #ffd76b; outline-offset:2px; }
+#por-plus-content { padding:18px; overflow:auto; }
+#por-plus-menu { box-sizing:border-box; width:94px; height:28px; padding:3px 6px; font:13px/20px system-ui,sans-serif; }
+#por-plus label { display:flex; gap:12px; align-items:center; padding:7px; }
+#por-plus input { width:20px; height:20px; }
+#por-plus a { color:#b7d9ff; }
+#por-plus.side-panel { left:auto; right:0; top:0; bottom:0; width:min(420px,45vw); border-radius:0; }
+@media(max-width:600px) { #por-plus { inset:4px; } #por-plus.side-panel { width:85vw; } }
